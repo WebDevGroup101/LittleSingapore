@@ -1,0 +1,115 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+}
+
+.nav {
+    height: 100px;
+    background: lightgray;
+    position: fixed;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    z-index: 99999;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+.nav-button {
+    width: 132px;
+    display: inline-block; 
+    padding: 10px 20px 10px 20px; 
+    background: white;
+    border-radius: 25px;
+}
+
+.nav-left {
+    margin-top: 27px; 
+    text-align: center;
+}
+
+#logo {
+    height: 90px; 
+    width: 90px;
+    margin: 5px;
+}
+
+.nav-right {
+    margin-top: 27px;
+    text-align: center
+}
+
+.info a {
+    font-weight: bolder;
+}
+
+.info {
+    margin-bottom: 40px;
+}
+
+/* .info-headers {
+    height: 8vh;
+} */
+
+.info img {
+    width: 80%;
+    margin: 10px;
+}
+
+.info p {
+    text-align: center;
+}
+
+.op-hours {
+    background-color: white; 
+    text-align: center; 
+    padding: 20px;
+}
+
+.getting-here {
+    background-color: white; 
+    text-align: center; 
+    padding: 20px;
+}
+
+.promos {
+    background: white; 
+    text-align: center; 
+    padding: 20px;
+}
+
+.footer {
+    background: lightgray; 
+    padding: 10px 0px 10px 0px;
+}
+
+.footer-links {
+    font-size: small; 
+    list-style: none; 
+    padding-left: 0; 
+    margin-bottom: 0;
+}
+
+.footer-left {
+    vertical-align: middle;
+}
+
+.footer-right {
+    vertical-align: middle;
+}
+
+.socials {
+    float: right; 
+    margin-top: 11px;
+}
+
+table.socials {
+    width: 150px;
+    text-align: center;
+}
