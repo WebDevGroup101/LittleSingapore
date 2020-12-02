@@ -1,8 +1,11 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
 }
+
+/* Tempory margin fix because I'm not sure why my columns are going off screen. */
 
 .nav {
     height: 100px;
@@ -45,48 +48,14 @@ a:hover {
     text-align: center
 }
 
-.info a {
-    font-weight: bolder;
-}
-
-.info {
-    margin-bottom: 40px;
-}
-
-/* .info-headers {
-    height: 8vh;
-} */
-
-.info img {
-    width: 80%;
-    margin: 10px;
-}
-
-.info p {
-    text-align: center;
-}
-
-.op-hours {
-    background-color: white; 
-    text-align: center; 
-    padding: 20px;
-}
-
-.getting-here {
-    background-color: white; 
-    text-align: center; 
-    padding: 20px;
-}
-
-.promos {
-    background: white; 
-    text-align: center; 
-    padding: 20px;
-}
+/*Footer Styling  */
 
 .footer {
     background: lightgray; 
     padding: 10px 0px 10px 0px;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
 }
 
 .footer-links {
@@ -115,11 +84,24 @@ table.socials {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* attractions.html  */
 
 /* Style the list */
 ul.breadcrumb {
-  padding: 10px 16px;
+  padding: 10px 10px;
   list-style: none;
   position: absolute;
   background-color: lightgray;
@@ -128,7 +110,7 @@ ul.breadcrumb {
 /* Display list items side by side */
 ul.breadcrumb li {
   display: inline;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* Add a slash symbol (/) before/behind each list item */
@@ -150,14 +132,45 @@ ul.breadcrumb li a:hover {
   text-decoration: underline;
 }
 
-/* Create three equal columns that floats next to each other */
-.column {
-    margin-top:55px;
+.eventsTitle {
+    margin-top: 35px;
+    position: relative;
+    margin-left: 7px;
+}
+
+.mapElement img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.mapTitle {
+    position: relative;
+    margin-left: 7px;
+}
+
+.mapContext {
+    display: flex;
+  }
+  
+  .mapBoxInfo {
+    flex: 50%;
     position: relative;
     float: left;
-    padding: 5%;
-    width: 33.33%;
+    padding: 2%;
     justify-content: center;
+    
+  }
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 35px;
+    border: 1px solid #000000;
+    position: relative;
+    max-width: fit-content;
   }
   
   /* Clear floats after the columns */
@@ -165,12 +178,44 @@ ul.breadcrumb li a:hover {
     content: "";
     display: table;
     clear: both;
+    position: relative;
+    width: 100%;
   }
   
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
-  @media screen and (max-width: 600px) {
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
     .column {
       width: 100%;
     }
+  }
 
+.attractionsTitle {
+    margin-top: 35px;
+    position: relative;
+    margin-left: 7px;
 }
+
+.facTitle {
+    margin-top: 35px;
+    position: relative;
+    margin-left: 7px;
+}
+
+.facInfo {
+    float: left;
+    width: 25%;
+    padding: 25px;
+    justify-content: center;
+    margin-top: 1px;
+    position: relative;
+  }
+  
+  /* Clear floats after the columns */
+  .facInfo:after {
+        content: "";
+        display: table;
+        clear: both;
+        position: relative;
+        height: 100px;
+        padding-bottom: 20%;
+  }
