@@ -204,7 +204,8 @@ ul.breadcrumb li a:hover {
 .Title {
   margin-top: 45px;
   position: relative;
-  margin-left: 10px;
+  margin-left: 150px;
+  margin-bottom: 45px;
 }
 
 .row:after {
@@ -220,6 +221,8 @@ ul.breadcrumb li a:hover {
 
 .mapContext {
   display: flex;
+  margin-left: 25%;
+  width: 50%;
 }
 
 .mapBoxInfo {
