@@ -45,24 +45,24 @@ a:hover {
     text-align: center
 }
 
-.info a {
+.section3 a {
     font-weight: bolder;
 }
 
-.info {
+.section3 {
     margin-bottom: 40px;
 }
 
-/* .info-headers {
+/* .section3-headers {
     height: 8vh;
 } */
 
-.info img {
+.section3 img {
     width: 80%;
     margin: 10px;
 }
 
-.info p {
+.section3 p {
     text-align: center;
 }
 
