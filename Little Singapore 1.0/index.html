@@ -15,36 +15,44 @@
     <title>Little Singapore</title>
 
   </head>
+  
   <body>
 
-  	<div class="nav">
-  		<div class="container-fluid">
-  			<div class="row">
-  				<div class="col-5 nav-left">
-  					<div class="container">
-  						<div class="row">
-  							<div class="col-6"><a href="#"><div class="nav-button">What's New</div></a></div>
-  							<div class="col-6"><a href="attractions.html"><div class="nav-button">Attractions</div></a></div>
-  						</div>
-  					</div>
-  				</div>
-  				<div class="col-2">
-  					<div style="text-align: center;"><a href="index.html"><img src="img/logo.png" id="logo"></a></div>
-  				</div>
-  				<div class="col-5 nav-right">
-  					<div class="container">
-  						<div class="row">
-  							<div class="col-6"><a href="#"><div class="nav-button">Contact</div></a></div>
-  							<div class="col-6"><a href="booknow.html"><div class="nav-button" style="background: grey;">Book Now</div></a></div>
-  						</div>
-  					</div>
-  				</div>
-  			</div>
-  		</div>
-  	</div>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav justify-content-center">
+              <div class="nav-left">
+                  <li class="nav-item">
+                      <a class="nav-link" href="attractions.html">What's New</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="attractions.html">Attractions</a>
+                  </li>
+              </div>
+              <div class="logo">
+                  <li class="logo">
+                      <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="90" height="90"
+                              class="d-inline-block align-top" alt=""></a>
+                  </li>
+              </div>
+              <div class="nav-right">
+                  <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item" style="background-color: darkgray">
+                      <a class="nav-link" href="booknow.html">Book Now</a> 
+                  </li>
+              </div>
+          </ul>
+      </div>
+  </nav>
 
       <div class="container">
-      <div class="carousel" style="margin-bottom: 40px; padding-top: 140px; overflow: hidden;">
+      <div class="carousel" style="margin-bottom: 60px; padding-top: 60px; overflow: hidden;">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -86,31 +94,123 @@
           </div>
     </div>
 
-    <div class="container info">
+    <div class="container section3">
         <div class="row no-gutters">
-            <div class="col-4">
+            <div class="col-3">
                 <div class="op-hours">
-                  <div class="info-headers"><h4>Operation Hours</h4></div>
+                  <div class="section3-headers"><h4>Opening Hours</h4></div>
                     <img src="img/logo.png">
-                    <p>Bunch of texts and info, click <a href="#">here</a> to learn more.</p>
+                    <ul style="list-style: none; padding-left: 0;">
+                      <li style="font-weight: 600;">Monday to Thursday</li>
+                      <li>9 am - 6 pm</li>
+                      <br>
+                      <li style="font-weight: 600;">Friday to Sunday</li>
+                      <li>8 am - 9 pm</li>
+                    </ul>
+                    <br><p>Click <a href="#">here</a> to learn more.</p>
                 </div>
             </div>
-            <div class="col-4">
-              <div class="getting-here">
-                <div class="info-headers"><h4>Getting Here</h4></div>
+            <div class="col-3">
+              <div class="getting-here" style="background: white;">
+                <div class="section3-headers"><h4>Getting Here</h4></div>
                   <img src="img/logo.png">
-                  <p>Bunch of texts and info, click <a href="#">here</a> to learn more.</p>
+                  <ul style="list-style: none; padding-left: 0;">
+                    <li style="font-weight: 600;">Public Transport</li>
+                    <li>Buses to take: 183, 859, 11</li>
+                    <li>Nearest MRT: Seacove</li>
+                    <br>
+                    <li style="font-weight: 600;">Driving</li>
+                    <li>Carpark A: Park Side Lane</li>
+                    <li>Carpark B: Sea Fun Drive</li>
+                  </ul>
+                  <br><p>Click <a href="#">here</a> to learn more.</p>
               </div>
           </div>            
-          <div class="col-4">
-                <div class="promos">
-                    <div class="info-headers"><h4>Promotions</h4></div>
+          <div class="col-3">
+                <div class="fac">
+                    <div class="section3-headers"><h4>Facilities</h4></div>
                     <img src="img/logo.png">
-                    <p>Bunch of texts and info, click <a href="#">here</a> to learn more.</p>
+                    <p>We have got various facilities and amenities to cater to needs of infants, elderly, handicap and more.</p>
+                    <br><p>Click <a href="#">here</a> to learn more.</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="promos">
+                    <div class="section3-headers">
+                      <h4>Promotions</h4>
+                    </div>
+                    <img src="img/logo.png">
+                    <p>Get the most bang for your bucks with our promotions! Ticket bundles when visiting as a group, or hotel packages for a good stay while you enjoy the park at a relaxed pace.</p>
+                    <br><p>Click <a href="#">here</a> to learn more.</p>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="section4 container" style="margin-top: 60px;">
+      <div class="promo4 row">
+        <div class="col-5">
+          <img src="img/3by2sel1.jpeg" style="width: 100%; border-radius: 25px">
+        </div>
+        <div class="col-7" style="padding-left: 40px;">
+          <h3>Promotions</h3>
+          <p>Here at Little Singapore, we aim to keep our prices affordable so you may join us frequently for our events and shows. Save more by purchasing our ticket bundles when you visit in groups.</p>
+          <p>Click <a href="#"><b>here</b></a> to learn more.</p>
+        </div>
+      </div>
+      <div class="attract4 row" style="margin-top: 40px;">
+        <div class="col-5">
+          <img src="img/3by2sel3.jpeg" style="width: 100%; border-radius: 25px">
+        </div>
+        <div class="col-7" style="padding-left: 40px;">
+          <h3>Attractions</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla arcu quis venenatis ornare. Ut hendrerit nulla vel turpis pulvinar, ut tempor mauris rutrum. Nam purus mi, pulvinar eget odio in, pharetra egestas dolor. Morbi dictum pharetra felis, eget scelerisque metus vestibulum vitae.</p>
+          <p>Click <a href="#"><b>here</b></a> to learn more.</p>
+        </div>
+      </div>
+      <div class="events4 row" style="margin-top: 40px;">
+        <div class="col-5">
+          <img src="img/3by2sel4.jpeg" style="width: 100%; border-radius: 25px">
+        </div>
+        <div class="col-7" style="padding-left: 40px;">
+          <h3>Events</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla arcu quis venenatis ornare. Ut hendrerit nulla vel turpis pulvinar, ut tempor mauris rutrum. Nam purus mi, pulvinar eget odio in, pharetra egestas dolor.</p>
+          <p>Click <a href="#"><b>here</b></a> to learn more.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="aboutus container" style="margin-top: 80px; margin-bottom: 60px;">
+      <div class="row">
+        <div class="col-12" style="text-align: center;">
+          <h3>What is Little Singapore?</h3>
+        </div>
+        <div class="col-12">
+          <img src="img/aboutus2.jpeg" width="100%" style="margin-top: 5px;">
+        </div>
+        <div class="col-12">
+          <p style="margin-top: 20px; text-align: center;">Little Singapore is a themed park based on Singapore aimed to feature all the unqiue elements that makes Singapore Singapore. Imagine being to experience all of what Singapore has to offer all in one place and have fun while you're at it! Sounds great doesn't it?</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- For side by side display of elements 
+      
+      <div class="aboutus container">
+      <div class="row">
+        <div class="col-12" style="text-align: center;">
+          <h3>What is Little Singapore?</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6" style="margin: auto;">
+          <img src="img/aboutus.jpeg" width="50%">
+        </div>
+        <div class="col-6" style="background: aqua;">
+          <p style="background: red; margin: auto;">Little Singapore is a themed park based on Singapore aimed to feature all the unqiue elements that makes Singapore Singapore. Imagine being to experience all of what Singapore has to offer all in one place and have fun while you're at it! Sounds great doesn't it?</p>
+        </div>
+      </div>
+    </div> -->
 
     <div class="footer">
       <div class="container">
@@ -159,3 +259,27 @@
     </script>
 
 </html>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+//Get the button:
+    mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>

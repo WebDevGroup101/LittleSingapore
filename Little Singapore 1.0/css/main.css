@@ -60,7 +60,65 @@ a:hover {
   margin-top: 27px;
   text-align: center
 }
+/*Content */
+.section3 a {
+  font-weight: bolder;
+}
 
+.section3 {
+  margin-bottom: 40px;
+}
+
+/* .section3-headers {
+  height: 8vh;
+} */
+
+.section3 img {
+  width: 80%;
+  margin: 10px;
+}
+
+.section3 p {
+  text-align: center;
+}
+
+.op-hours {
+  background-color: white; 
+  text-align: center; 
+  padding: 20px;
+}
+
+.getting-here {
+  background-color: white; 
+  text-align: center; 
+  padding: 20px;
+}
+
+.get-here-left {
+  text-align: right;
+  padding-right: 5px;
+}
+
+.get-here-right {
+  text-align: left;
+  padding-left: 6px;
+}
+
+.bus {
+  border: 1px solid black;
+}
+
+.fac {
+  background: white; 
+  text-align: center; 
+  padding: 20px;
+}
+
+.promos {
+  background: white; 
+  text-align: center; 
+  padding: 20px;
+}
 /*Footer Styling  */
 
 .footer {
