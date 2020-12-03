@@ -20,18 +20,46 @@
 
 <body>
 
-    <div class="nav">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav navbar-nav justify-content-center">
+                <div class="nav-left">
+                    <li class="nav-item">
+                        <a class="nav-link" href="attractions.html">What's New</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="attractions.html">Attractions</a>
+                    </li>
+                </div>
+                <div class="logo">
+                    <li class="logo">
+                        <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="90" height="90"
+                                class="d-inline-block align-top" alt=""></a>
+                    </li>
+                </div>
+                <div class="nav-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item" style="background-color: darkgray">
+                        <a class="nav-link" href="booknow.html">Book Now</a> 
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <!-- <div class="nav">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-5 nav-left">
                     <div class="container">
                         <div class="row">
-                            <div class="col-6"><a href="#">
-                                    <div class="nav-button">What's New</div>
-                                </a></div>
-                            <div class="col-6"><a href="attractions.html">
-                                    <div class="nav-button">Attractions</div>
-                                </a></div>
+                            <div class="col-6"><a href="#"><div class="nav-button">Events</div></a></div>
+                            <div class="col-6"><a href="#"><div class="nav-button">Attractions</div></a></div>
                         </div>
                     </div>
                 </div>
@@ -41,46 +69,58 @@
                 <div class="col-5 nav-right">
                     <div class="container">
                         <div class="row">
-                            <div class="col-6"><a href="#">
-                                    <div class="nav-button">Contact</div>
-                                </a></div>
-                            <div class="col-6"><a href="booknow.html">
-                                    <div class="nav-button" style="background: grey;">Book Now</div>
-                                </a></div>
+                            <div class="col-6"><a href="#"><div class="nav-button">Information</div></a></div>
+                            <div class="col-6"><a href="booknow.html"><div class="nav-button" style="background: grey;">Book Now</div></a></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
+
 
     <ul class="breadcrumb">
         <li><a href="index.html">Home</a></li>
         <li>Attractions</li>
     </ul>
 
-    <div class="eventsTitle">
+    <div class="Title">
         <h2>Events</h2>
     </div>
 
-    <div class="row">
-        <div class="column">
-          <h2>Column</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <h3>Column 1</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis
+                velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                placerat,
+                purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                convallis.
+            </div>
+            <div class="col-md">
+                <h3>Column 2</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis
+                velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                placerat,
+                purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                convallis.
+            </div>
+            <div class="col-md">
+                <h3>Column 3</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis
+                velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                placerat,
+                purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                convallis.
+            </div>
         </div>
-        
-        <div class="column">
-          <h2>Column</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-        </div>
-        
-        <div class="column">
-          <h2>Column</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-        </div>
-      </div>
+    </div>
 
-    <div class="mapTitle">
+    <div class="Title">
         <h1>Map of Little Singapore</h1>
     </div>
 
@@ -95,93 +135,147 @@
                 venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget
                 aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor
                 sed accumsan convallis.</p>
-            </div>
-        <div class="mapBoxInfo">           
+        </div>
+        <div class="mapBoxInfo">
             <h3>Map Legend</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
                 venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget
                 aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor
                 sed accumsan convallis.</p>
-            </div></div>
-      </div>
+        </div>
+    </div>
+    </div>
 
-    <div class="attractionsTitle">
+    <div class="Title">
         <div class="h1">Rides That Made Us Famous</div>
     </div>
 
-    <div class="row">
-        <div class="column">
-            <h3>Column</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
-                venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget
-                aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor
-                sed accumsan convallis.</p>
-        </div>
-
-        <div class="column">
-            <h3>Column</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
-                venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget
-                aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor
-                sed accumsan convallis.</p>
-        </div>
-
-        <div class="column">
-            <h3>Column</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
-                venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget
-                aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor
-                sed accumsan convallis.</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column">
-            <h3>Column</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
-                venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget
-                aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor
-                sed accumsan convallis.</p>
-        </div>
-
-        <div class="column">
-            <h3>Column</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
-                venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget
-                aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor
-                sed accumsan convallis.</p>
-        </div>
-
-        <div class="column">
-            <h3>Column</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
-                venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget
-                aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor
-                sed accumsan convallis.</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md">
+                <h3>Column 1</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis
+                velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                placerat,
+                purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                convallis.
+                <img src="img/placeholder.png" width="420" height="420" style="max-width: 420;max-height: 420;" alt="Ride">
+            </div>
+            <div class="col-md">
+                <h3>Column 2</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis
+                velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                placerat,
+                purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                convallis.
+                <img src="img/placeholder.png" width="420" height="420" style="max-width: 420;max-height: 420;" alt="Ride">
+            </div>
+            <div class="col-md">
+                <h3>Column 3</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis
+                velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                placerat,
+                purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                convallis.
+                <img src="img/placeholder.png" width="420" height="420" style="max-width: 420;max-height: 420;" alt="Ride">
+            </div>
+            <div class="col-md">
+                <h3>Column 4</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis
+                velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                placerat,
+                purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                convallis.
+                <img src="img/placeholder.png" width="420" height="420" style="max-width: 420;max-height: 420;" alt="Ride">
+            </div>
         </div>
     </div>
 
-    <div class="facTitle">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md">
+                <h3>Column 1</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis
+                velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                placerat,
+                purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                convallis.
+                <img src="img/placeholder.png" width="420" height="420" style="max-width: 420;max-height: 420;" alt="Ride">
+
+            </div>
+            <div class="col-md">
+                <h3>Column 2</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis
+                velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                placerat,
+                purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                convallis.
+                <img src="img/placeholder.png" width="420" height="420" style="max-width: 420;max-height: 420;" alt="Ride">
+            </div>
+            <div class="col-md">
+                <h3>Column 3</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis
+                velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                placerat,
+                purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                convallis.
+                <img src="img/placeholder.png" width="420" height="420" style="max-width: 420;max-height: 420;" alt="Ride">
+            </div>
+            <div class="col-md">
+                <h3>Column 4</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis
+                velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                placerat,
+                purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                convallis.
+                <img src="img/placeholder.png" width="420" height="420" style="max-width: 420;max-height: 420;" alt="Ride">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="Title">
         <h1>Facilities</h1>
     </div>
 
-     <div class="row">
-      <div class="facInfo" style="background-color:#aaa;">
-        <h2>Column 1</h2>
-        <p>Some text..</p>
-      </div>
-      <div class="facInfo" style="background-color:#bbb;">
-        <h2>Column 2</h2>
-        <p>Some text..</p>
-      </div>
-      <div class="facInfo" style="background-color:#ccc;">
-        <h2>Column 3</h2>
-        <p>Some text..</p>
-      </div>
-      <div class="facInfo" style="background-color:#ddd;">
-        <h2>Column 4</h2>
-        <p>Some text..</p>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <h3>Column 1</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis
+                velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                placerat,
+                purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                convallis.
+            </div>
+            <div class="col-md">
+                <h3>Column 2</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis
+                velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                placerat,
+                purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                convallis.
+            </div>
+            <div class="col-md">
+                <h3>Column 3</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis
+                velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                placerat,
+                purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                convallis.
+            </div>
+        </div>
     </div>
 
 
@@ -211,3 +305,27 @@
             </div>
         </div>
     </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script>
+    //Get the button:
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
