@@ -18,7 +18,30 @@ a {
 }
 
 a:hover {
+<<<<<<< Updated upstream
     color: grey;
+=======
+  color: grey; 
+}
+
+.navbar {
+  background: lightgray;
+}
+
+.nav-item {
+  width: 170px;
+  display: inline-block;
+  font-size: larger;
+  background: white;
+  border-radius: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.nav-item .nav-link {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+>>>>>>> Stashed changes
 }
 
 .nav-button {
