@@ -68,6 +68,7 @@ a:hover {
   margin-top: 27px;
   text-align: center
 }
+
 /*Content */
 .section3 a {
   font-weight: bolder;
@@ -120,6 +121,26 @@ a:hover {
   background: white; 
   text-align: center; 
   padding: 20px;
+}
+
+.get-here-left {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.get-here-right {
+    text-align: left;
+    padding-left: 6px;
+}
+
+.bus {
+    border: 1px solid black;
+}
+
+.fac {
+    background: white; 
+    text-align: center; 
+    padding: 20px;
 }
 
 .promos {
