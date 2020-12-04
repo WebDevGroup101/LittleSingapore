@@ -1,5 +1,14 @@
 # LittleSingapore
 
+Page Layout Design
+
+Between containers: 60px
+divisions within containers: 30px
+Header size: <h3>
+Sub-header size: <h4>
+Text font size: <p>
+Row settings: style="margin-left: 0, no-gutters
+
 Content Structure Updates
 
 ---
