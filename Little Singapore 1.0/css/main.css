@@ -1,6 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   display: block;
+  
 }
 
 html {
@@ -16,6 +17,7 @@ html {
   width: 100%;
   font-family: 'Poppins', sans-serif;
   z-index: 99999;
+  color: black;
 }
 
 a {
@@ -31,13 +33,19 @@ a:hover {
 }
 
 .nav-item {
-  width: 150px;
+  width: 170px;
   display: inline-block;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
+  font-size: larger;
   background: white;
   border-radius: 25px;
-  margin-left: 75px;
-  margin-right: 75px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.nav-item .nav-link {
+  color: black;
+  font-family: 'Poppins', sans-serif;
 }
 
 .navbar-brand {
@@ -168,8 +176,11 @@ table.socials {
 ul.breadcrumb {
   padding: 10px 10px;
   list-style: none;
-  position: absolute;
-  background-color: lightgray;
+  position:fixed;
+  background-color: transparent;
+  top:0;
+  width:100%;
+  margin-top: 115px;
 }
 
 /* Display list items side by side */
@@ -252,7 +263,7 @@ ul.breadcrumb li a:hover {
   /* Remove borders */
   outline: none;
   /* Remove outline */
-  background-color: black;
+  background-color: grey;
   /* Set a background color */
   color: white;
   /* Text color */
@@ -260,9 +271,9 @@ ul.breadcrumb li a:hover {
   /* Add a mouse pointer on hover */
   padding: 15px;
   /* Some padding */
-  border-radius: 10px;
+  border-radius: 50%;
   /* Rounded corners */
-  font-size: 18px;
+  font-size: 22px;
   /* Increase font size */
 }
 
