@@ -17,35 +17,40 @@
   </head>
   
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="logo">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="90" height="90"
+                    class="d-inline-block align-top" alt=""></a>
+    </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav">
+              <div class="nav-left">
+                  <li class="nav-item">
+                      <a class="nav-link" href="attractions.html">What's New</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="attractions.html">Attractions</a>
+                  </li>
+              </div>
+              <div class="nav-right">
+                  <li class="nav-item">
+                    <a class="nav-link" href="info.html">Information</a>
+                  </li>
+                  <li class="nav-item" style="background-color: darkgray">
+                      <a class="nav-link" href="booknow.html">Book Now</a> 
+                  </li>
+              </div>
+          </ul>
+      </div>
+  </nav>
 
-  	<div class="nav">
-  		<div class="container-fluid">
-  			<div class="row">
-  				<div class="col-5 nav-left">
-  					<div class="container">
-  						<div class="row">
-  							<div class="col-6"><a href="#"><div class="nav-button">Events</div></a></div>
-  							<div class="col-6"><a href="#"><div class="nav-button">Attractions</div></a></div>
-  						</div>
-  					</div>
-  				</div>
-  				<div class="col-2">
-  					<div style="text-align: center;"><a href="index.html"><img src="img/logo.png" id="logo"></a></div>
-  				</div>
-  				<div class="col-5 nav-right">
-  					<div class="container">
-  						<div class="row">
-  							<div class="col-6"><a href="#"><div class="nav-button">Information</div></a></div>
-  							<div class="col-6"><a href="booknow.html"><div class="nav-button" style="background: grey;">Book Now</div></a></div>
-  						</div>
-  					</div>
-  				</div>
-  			</div>
-  		</div>
-  	</div>
+      <div class="container">
+      <div class="carousel" style="margin-bottom: 60px; padding-top: 60px; overflow: hidden;">
 
-    <div class="container">
-      <div class="carousel" style="margin-bottom: 60px; padding-top: 140px; overflow: hidden;">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -252,3 +257,27 @@
     </script>
 
 </html>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+//Get the button:
+    mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
