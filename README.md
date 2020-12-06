@@ -2,9 +2,9 @@
 ---
 I've hosted a copy of the website on github pages using my personal account, so we can check the site without having to download or pull it. 
 
-Up to date as of 12/4/20 21:16
+Up to date as of 5/12/20 20:34
 
-https://prestonthomas.github.io/probable-garbanzo/index.html
+https://prestonthomas.github.io/probable-garbanzo/
 
 P.S I just used the randomly generated name.
 ---
