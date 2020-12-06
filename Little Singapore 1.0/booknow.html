@@ -19,38 +19,45 @@
 </head>
 
 <body>
+    
 
     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+  
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="nav navbar-nav justify-content-center">
-                <div class="nav-left">
-                    <li class="nav-item">
-                        <a class="nav-link" href="attractions.html" style="color: black;" >What's New</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="attractions.html" style="color: black">Attractions</a>
-                    </li>
-                </div>
-                <div class="logo">
-                    <li class="logo">
-                        <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="90" height="90"
-                                class="d-inline-block align-top" alt=""></a>
-                    </li>
-                </div>
-                <div class="nav-right">
-                    <li class="nav-item">
-                        <a class="nav-link" href="info.html" style="color: black" >Information</a>
-                    </li>
-                    <li class="nav-item" style="background-color: darkgray; font-weight: bold;">
-                        <a class="nav-link" href="booknow.html">Book Now</a> 
-                    </li>
-                </div>
-            </ul>
+          <ul class="nav navbar-nav justify-content-center">
+            <div class="nav-left">
+              <li class="nav-item">
+                <a class="nav-link" href="attractions.html" style="color: black;">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="attractions.html" style="color: black;">Attractions</a>
+              </li>
+            </div>
+          </ul>
         </div>
+  
+        <div class="logo">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" width="90" height="90" class="d-inline-block align-top" alt="">
+          </a>
+        </div>
+  
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav justify-content-center">
+            <div class="nav-right">
+              <li class="nav-item">
+                <a class="nav-link" href="info.html" style="color: black;">Information</a>
+              </li>
+              <li class="nav-item" style="background-color: darkgray">
+                  <a class="nav-link" href="booknow.html" style="color: black;">Book Now</a> 
+              </li>
+            </div>
+          </ul>
+      </div>
     </nav>
 
     <ul class="breadcrumb">
@@ -58,34 +65,60 @@
         <li>Book Now</li>
     </ul>
 
-<div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-6 footer-left">
-                <ul class="footer-links">
-                    <li style="font-size: large;">General Info</li>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                </ul>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <img src="img/scroll1.png" style="width: 20px">
+    </button>
+
+    <div class="container date-box">
+
+    </div>
+
+    <div class="container tix-bundles">
+        <h3 style="margin-bottom: 20px;">Bundles</h3>
+        <div class="row bundles">
+            <div class="col-md">
+                <h4>2 + 2 Deals</h4>
+                <p>Get <b>20% off</b> when you buy 2 pairs of tickets online.<br><br>
+                    2 adult tickets with 2 child tickets<br><br>
+                    4 adult tickets
+                </p>
             </div>
-            <div class="col-6 footer-right">
-                <table class="socials">
-                    <tr>
-                        <td colspan="3" style="text-align: center;">Follow us on</th>
-                    </tr>
-                    <tr>
-                        <td><a href="https://www.facebook.com"><img src="img/fb.png" height="30px"></a></td>
-                        <td><a href="https://twitter.com"><img src="img/tw.png" height="33px"></a></td>
-                        <td><a href="https://www.instagram.com"><img src="img/in.png" height="30px"></a></td>
-                    </tr>
-                </table>
+            <div class="col-md">
+                <h4>Hotel Deals</h4>
+                <p>Save more when you stay with our partner hotels! Spend a couple of days </p>
+            </div>
+        </div>
+        <div class="row tickets">
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 footer-left">
+                    <ul class="footer-links">
+                        <li style="font-size: large;">General Info</li>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 footer-right">
+                    <table class="socials">
+                        <tr>
+                            <td colspan="3" style="text-align: center;">Follow us on</th>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.facebook.com"><img src="img/fb.png" height="30px"></a></td>
+                            <td><a href="https://twitter.com"><img src="img/tw.png" height="33px"></a></td>
+                            <td><a href="https://www.instagram.com"><img src="img/in.png" height="30px"></a></td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 <script>
 //Get the button:

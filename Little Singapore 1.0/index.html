@@ -17,39 +17,49 @@
   </head>
   
   <body>
+
     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="logo">
-            <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="90" height="90"
-                    class="d-inline-block align-top" alt=""></a>
-    </div>
+
       <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="nav navbar-nav">
-              <div class="nav-left">
-                  <li class="nav-item">
-                      <a class="nav-link" href="attractions.html">What's New</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="attractions.html">Attractions</a>
-                  </li>
-              </div>
-              <div class="nav-right">
-                  <li class="nav-item">
-                    <a class="nav-link" href="info.html">Information</a>
-                  </li>
-                  <li class="nav-item" style="background-color: darkgray">
-                      <a class="nav-link" href="booknow.html">Book Now</a> 
-                  </li>
-              </div>
-          </ul>
+        <ul class="nav navbar-nav justify-content-center">
+          <div class="nav-left">
+            <li class="nav-item">
+              <a class="nav-link" href="attractions.html" style="color: black;">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="attractions.html" style="color: black;">Attractions</a>
+            </li>
+          </div>
+        </ul>
       </div>
+
+      <div class="logo">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.png" width="90" height="90" class="d-inline-block align-top" alt="">
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav navbar-nav justify-content-center">
+          <div class="nav-right">
+            <li class="nav-item">
+              <a class="nav-link" href="info.html" style="color: black;">Information</a>
+            </li>
+            <li class="nav-item" style="background-color: darkgray">
+                <a class="nav-link" href="booknow.html" style="color: black;">Book Now</a> 
+            </li>
+          </div>
+        </ul>
+
+    </div>
   </nav>
 
       <div class="container">
-      <div class="carousel" style="margin-bottom: 60px; padding-top: 60px; overflow: hidden;">
+      <div class="carousel" style="margin-bottom: 60px; margin-top: 60px; overflow: hidden;">
 
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -156,7 +166,7 @@
           <p>Click <a href="#"><b>here</b></a> to learn more.</p>
         </div>
       </div>
-      <div class="attract4 row" style="margin-top: 40px;">
+      <div class="attract4 row" style="margin-top: 50px;">
         <div class="col-5">
           <img src="img/3by2sel3.jpeg" style="width: 100%; border-radius: 25px">
         </div>
@@ -166,7 +176,7 @@
           <p>Click <a href="#"><b>here</b></a> to learn more.</p>
         </div>
       </div>
-      <div class="events4 row" style="margin-top: 40px;">
+      <div class="events4 row" style="margin-top: 50px;">
         <div class="col-5">
           <img src="img/3by2sel4.jpeg" style="width: 100%; border-radius: 25px">
         </div>
@@ -183,8 +193,8 @@
         <div class="col-12" style="text-align: center;">
           <h3>What is Little Singapore?</h3>
         </div>
-        <div class="col-12">
-          <img src="img/aboutus2.jpeg" width="100%" style="margin-top: 5px;">
+        <div class="col-12" style="text-align: center;">
+          <img src="img/aboutus2.jpeg" width="100%" style="margin-top: 5px; border-radius: 25px;">
         </div>
         <div class="col-12">
           <p style="margin-top: 20px; text-align: center;">Little Singapore is a themed park based on Singapore aimed to feature all the unqiue elements that makes Singapore Singapore. Imagine being to experience all of what Singapore has to offer all in one place and have fun while you're at it! Sounds great doesn't it?</p>
@@ -192,23 +202,9 @@
       </div>
     </div>
 
-    <!-- For side by side display of elements 
-      
-      <div class="aboutus container">
-      <div class="row">
-        <div class="col-12" style="text-align: center;">
-          <h3>What is Little Singapore?</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-6" style="margin: auto;">
-          <img src="img/aboutus.jpeg" width="50%">
-        </div>
-        <div class="col-6" style="background: aqua;">
-          <p style="background: red; margin: auto;">Little Singapore is a themed park based on Singapore aimed to feature all the unqiue elements that makes Singapore Singapore. Imagine being to experience all of what Singapore has to offer all in one place and have fun while you're at it! Sounds great doesn't it?</p>
-        </div>
-      </div>
-    </div> -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <img src="img/scroll1.png" style="width: 20px">
+    </button>
 
     <div class="footer">
       <div class="container">
@@ -257,8 +253,6 @@
     </script>
 
 </html>
-
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 <script>
 //Get the button:
