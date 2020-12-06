@@ -233,6 +233,11 @@ ul.breadcrumb li a:hover {
   text-decoration: underline;
 }
 
+.opdata td {
+  background: white;
+  padding-right: 30px;
+}
+
 .Title {
   margin-top: 45px;
   position: relative;
