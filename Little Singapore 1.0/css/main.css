@@ -227,16 +227,7 @@ table.socials {
     padding: 20px;
   }
 
-
-
-
-
-
-
-
-
-
-/* attractions.html  */
+/* attractions page  */
 
 .opdata td {
   background: white;
@@ -333,3 +324,6 @@ display: block;
 .dropdown:hover .dropbtn {
 background-color: darkgray;
 }
+
+/* information page */
+
