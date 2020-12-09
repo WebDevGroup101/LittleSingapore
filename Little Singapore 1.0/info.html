@@ -19,46 +19,41 @@
 </head>
 
 <body>
-
     <!-- navigation bar -->
-
     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-  
+
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="nav navbar-nav justify-content-center">
-            <div class="nav-left">
-              <li class="nav-item">
-                <a class="nav-link" href="attractions.html" style="color: black;">Events</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="attractions.html" style="color: black;">Attractions</a>
-              </li>
-            </div>
-          </ul>
+            <ul class="nav navbar-nav justify-content-center">
+                <div class="nav-left">
+                    <li class="nav-item">
+                        <a class="nav-link" href="attractions.html" style="color: black;">What's New</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="attractions.html" style="color: black;">Attractions</a>
+                    </li>
+                </div>
+            </ul>
         </div>
-  
         <div class="logo">
-          <a class="navbar-brand" href="index.html">
-            <img src="img/logo.png" width="90" height="90" class="d-inline-block align-top" alt="">
-          </a>
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" width="90" height="90" class="d-inline-block align-top" alt="">
+            </a>
         </div>
-  
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="nav navbar-nav justify-content-center">
-            <div class="nav-right">
-              <li class="nav-item">
-                <a class="nav-link" href="info.html" style="color: black;">Information</a>
-              </li>
-              <li class="nav-item" style="background-color: darkgray">
-                  <a class="nav-link" href="booknow.html" style="color: black;">Book Now</a> 
-              </li>
-            </div>
-          </ul>
-      </div>
+            <ul class="nav navbar-nav justify-content-center">
+                <div class="nav-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="info.html" style="color: black;">Information</a>
+                    </li>
+                    <li class="nav-item" style="background-color: darkgray">
+                        <a class="nav-link" href="booknow.html" style="color: black;">Book Now</a> 
+                    </li>
+                </div>
+            </ul>
+        </div>
     </nav>
 
     <!-- breadcrumb under navigation bar -->
@@ -74,33 +69,17 @@
         <div class="row">
             <h3>Operation Hours</h3>
         </div>
-        <div class="row" style="margin-bottom: 30px;">
-            <div class="col-md" style="padding-left: 0px;">
-                <table class="opdata" style="padding: 10px;">
-                    <tr>
-                        <th>Day</th><th>Operating Hours</th>
-                    </tr>
-                    <tr>
-                        <td>Monday</td><td>Closed for maintainance this week.</td>
-                    </tr>
-                    <tr>
-                        <td>Tuesday</td><td>8 am - 6pm</td>
-                    </tr>
-                    <tr>
-                        <td>Wednesday</td><td>8 am - 6pm</td>
-                    </tr>
-                    <tr>
-                        <td>Thursday</td><td>8 am - 6pm</td>
-                    </tr>
-                    <tr>
-                        <td>Friday</td><td>8 am - 6pm</td>
-                    </tr>
-                    <tr>
-                        <td>Saturday</td><td>9 am - 9pm</td>
-                    </tr>
-                    <tr>
-                        <td>Sunday</td><td>9 am - 9pm</td>
-                    </tr>
+        <div class="row">
+            <div class="col-md">
+                <table class="opdata">
+                    <tr><th>Day</th><th>Operating Hours</th></tr>
+                    <tr><td>Monday</td><td>Closed for maintainance this week.</td></tr>
+                    <tr><td>Tuesday</td><td>8 am - 6pm</td></tr>
+                    <tr><td>Wednesday</td><td>8 am - 6pm</td></tr>
+                    <tr><td>Thursday</td><td>8 am - 6pm</td></tr>
+                    <tr><td>Friday</td><td>8 am - 6pm</td></tr>
+                    <tr><td>Saturday</td><td>9 am - 9pm</td></tr>
+                    <tr><td>Sunday</td><td>9 am - 9pm</td></tr>
                 </table>
             </div>
         </div>
@@ -109,26 +88,56 @@
     <!-- information on how to get to the park -->
 
     <div class="container gettingHere">
-      <div class="row" style="background: white; padding-left: 15px;">
-        <h3>Getting Here</h3>
-      </div>
-        <div class="row" style="background: white; padding-left: 15px;">
-           <div class="col-md" style="padding-left: 0px;">
+        <div class="row">
+            <h3>Getting Here</h3>
+        </div>
+        <div class="row">
+            <div class="col-md" style="padding-bottom: 15px;">
                 <img src="img/map.png" alt="Directions" style="width: 100%;">
             </div>
             <div class="col-md">
-                <h4>Public Transport</h4>
-                <ul style="list-style: none; padding-left: 0px;">
-                <li>Bus A, Bus B, Bus C</li>
-                <li>MRT A</li>
-                </ul>
-            </div>
-            <div class="col-md">
-                <h4>Car</h4>
-                <ul style="list-style: none; padding-left: 0px;">
-                <li>Carpark A, Street Name</li>
-                <li>Carpark B, Street Name</li>
-                </ul>
+                <!-- <div class="row" style="margin: 0px">
+                    <div class="col-sm-6">
+                        <h4>Public Transport</h4>
+                    </div>
+                    <div class="col-sm-6">
+                        <h4>Car</h4>
+                  
+                    </div>
+                </div>
+                <div class="row" style="margin: 0px">
+                    <div class="col-sm-6">
+                        <ul>
+                            <li>Bus: 11, 183, 859</li>
+                            <li>MRT: Seacove</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul>
+                            <li>Carpark A: Park Side Lane</li>
+                            <li>Carpark B: Sea Fun Drive</li>
+                        </ul>
+                    </div>
+                </div> -->
+
+                <div class="col-sm-6" style="background: white; float: left; padding: 0px;">
+                    <div>
+                        <h4>Public Transport</h4>
+                    </div>
+                    <ul>
+                        <li>Bus: 11, 183, 859</li>
+                        <li>MRT: Seacove</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6" style="background: white; float: left; padding: 0px;">
+                    <div>
+                        <h4>Car</h4>
+                    </div>
+                    <ul>
+                        <li>Carpark A: Park Side Lane</li>
+                        <li>Carpark B: Sea Fun Drive</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -136,40 +145,40 @@
     <!-- information on the park facilities -->
 
     <div class="container">
-        <div class="row facilities-info" style="background: white; padding-left: 15px;">
+        <div class="row facilities-info">
             <h3>Facilities Information</h3>
         </div>
-      <div class="row" style="margin-top: 20px; padding-left: 15px;">
-            <div class="col-md" style="padding-left: 0px;">
+        <div class="row">
+            <div class="col-md">
                 <h4>Restaurants &amp; Snack Bar</h4>
-                <ul style="list-style: none; padding-left: 0px;">
-                <li>Restaurant A</li>
-                <li>Restaurant B</li>
-                <li>Restaurant C</li>
+                <ul>
+                    <li>Restaurant A</li>
+                    <li>Restaurant B</li>
+                    <li>Restaurant C</li>
                 </ul>
                 <img src="img/3by2.png" style="width: 80%;" alt="Pictures on food">
-          </div>
-          <div class="col-md" style="padding-left: 0px;">
+            </div>
+            <div class="col-md">
                 <h4>ATM Facilities</h4>
-                <ul style="list-style: none; padding-left: 0px;">
-                <li>Bank A</li>
-                <li>Bank B</li>
-                <li>Bank C</li>
+                <ul>
+                    <li>Bank A</li>
+                    <li>Bank B</li>
+                    <li>Bank C</li>
                 </ul>
                 <img src="img/3by2.png" style="width: 80%;" alt="Pictures on facilities">
           </div>
         </div>
     </div>
     
-    <div class="container" style="margin-top: 60px;">
-        <div class="row enquires" style="margin-top: 20px; padding-left: 15px;">
-            <div class="col-md" style="padding-left: 0px;">
-                <h3>Enquires</h3>
+    <div class="container">
+        <div class="row enquires">
+            <div class="col-md">
+                <h3 style="margin-bottom: 20px; padding-left: 0px;">Enquires</h3>
                 <p>Email: enquires@littlesg.com<br/>
                     Tel: +65-12345678</p>
             </div>
-            <div class="col-md" style="padding-left: 0px;">
-                <h3>Feedback</h3>
+            <div class="col-md">
+                <h3 style="margin-bottom: 20px; padding-left: 0px;">Feedback</h3>
                 <p>Email: feeback@littlesg.com <br/>
                     Tel: +65-12345678</p>
             </div>
@@ -178,9 +187,9 @@
 
      <!-- footer containing links to social media and information -->
 
-    <div class="footer">
+     <div class="footer">
         <div class="container">
-            <div class="row">
+            <div class="row">                
                 <div class="col-6 footer-left">
                     <ul class="footer-links">
                         <li style="font-size: large;">General Info</li>
@@ -203,7 +212,7 @@
                 </div>
             </div>
         </div>
-    </div>
+      </div>
 
     <!-- scroll to top button -->
 
