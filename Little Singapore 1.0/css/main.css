@@ -179,6 +179,10 @@
         border-radius: 25px;
     }
 
+    .section4 h3 {
+        padding-left: 0px;
+    }
+
     .aboutus {
         margin-top: 80px;
         margin-bottom: 60px;
