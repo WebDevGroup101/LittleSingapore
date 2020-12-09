@@ -1,198 +1,77 @@
-body {
-  font-family: 'Poppins', sans-serif;
-  display: block;
-  
-}
 
-html {
-  scroll-behavior: smooth;
-}
+/* global styling */
+
+  a {
+    color: black;
+  }
+
+  a:hover {
+    color: grey;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
 
 /* Bootstrap Navbar Styling */
 
-.nav {
-  height: 100px;
-  background: lightgray;
-  position: relative;
-  width: 100%;
-  font-family: 'Poppins', sans-serif;
-  z-index: 99999;
-  color: black;
-}
+  .nav {
+    height: 100px;
+    background: lightgray;
+    position: relative;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    z-index: 99999;
+    color: black;
+  }
 
-a {
-  color: black;
-}
+  .navbar {
+    background: lightgray;
+  }
 
-a:hover {
-  color: grey;
-}
+  .nav-item {
+    width: 170px;
+    display: inline-block;
+    font-size: larger;
+    background: white;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 
-.navbar {
-  background: lightgray;
-}
+  .nav-item .nav-link {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+  }
 
-.nav-item {
-  width: 170px;
-  display: inline-block;
-  font-size: larger;
-  background: white;
-  border-radius: 25px;
-  margin-left: 25px;
-  margin-right: 25px;
-}
+  .navbar-brand {
+    padding-left: 15px;
+    justify-content: center;
+  }
 
-.nav-item .nav-link {
-  color: black;
-  font-family: 'Poppins', sans-serif;
-}
+  .nav-left {
+    margin-top: 27px;
+    text-align: center;
+  }
 
-.navbar-brand {
-  padding-left: 15px;
-  justify-content: center;
-}
+  #logo {
+    height: 90px;
+    width: 90px;
+    margin: 5px;
+  }
 
-.nav-left {
-  margin-top: 27px;
-  text-align: center;
-}
+  .nav-right {
+    margin-top: 27px;
+    text-align: center
+  }
 
-#logo {
-  height: 90px;
-  width: 90px;
-  margin: 5px;
-}
-
-.nav-right {
-  margin-top: 27px;
-  text-align: center
-}
-
-/*Content */
-.section3 a {
-  font-weight: bolder;
-}
-
-.section3 {
-  margin-bottom: 40px;
-}
-
-/* .section3-headers {
-  height: 8vh;
-} */
-
-.section3 img {
-  width: 80%;
-  margin: 10px;
-  padding-bottom: 15px;
-}
-
-.section3 p {
-  text-align: center;
-}
-
-.op-hours {
-  background-color: white; 
-  text-align: center; 
-  padding: 20px;
-}
-
-.getting-here {
-  background-color: white; 
-  text-align: center; 
-  padding: 20px;
-}
-
-.get-here-left {
-  text-align: right;
-  padding-right: 5px;
-}
-
-.get-here-right {
-  text-align: left;
-  padding-left: 6px;
-}
-
-.bus {
-  border: 1px solid black;
-}
-
-.fac {
-  background: white; 
-  text-align: center; 
-  padding: 20px;
-}
-
-.get-here-left {
-    text-align: right;
-    padding-right: 5px;
-}
-
-.get-here-right {
-    text-align: left;
-    padding-left: 6px;
-}
-
-.bus {
-    border: 1px solid black;
-}
-
-.fac {
-    background: white; 
-    text-align: center; 
-    padding: 20px;
-}
-
-.promos {
-  background: white; 
-  text-align: center; 
-  padding: 20px;
-}
-/*Footer Styling  */
-
-.footer {
-  background: lightgray;
-  padding: 10px 0px 10px 0px;
-  width: 100%;
-  position: relative;
-  margin-top: 50px;
-}
-
-.footer-links {
-  font-size: small;
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 0;
-}
-
-.footer-left {
-  vertical-align: middle;
-}
-
-.footer-right {
-  vertical-align: middle;
-}
-
-.socials {
-  float: right;
-  margin-top: 11px;
-}
-
-table.socials {
-  width: 150px;
-  text-align: center;
-}
-
-
-
-
-
-
-
-
-/* attractions.html  */
-
-/* Style the list */
+/* breadcrumb styling */
 
 ul.breadcrumb {
   padding: 10px 10px;
@@ -232,6 +111,132 @@ ul.breadcrumb li a:hover {
   color: #01447e;
   text-decoration: underline;
 }
+
+/* footer styling  */
+
+.footer {
+  background: lightgray;
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+  position: relative;
+  margin-top: 50px;
+}
+
+.footer-links {
+  font-size: small;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.footer-left {
+  vertical-align: middle;
+}
+
+.footer-right {
+  vertical-align: middle;
+}
+
+.socials {
+  float: right;
+  margin-top: 11px;
+}
+
+table.socials {
+  width: 150px;
+  text-align: center;
+}
+
+/* homepage styling */
+
+  /* section3 styling */
+
+  .section3 a {
+    font-weight: bolder;
+  }
+
+  .section3 {
+    margin-bottom: 40px;
+  }
+
+  .section3 img {
+    width: 80%;
+    margin: 10px;
+    padding-bottom: 15px;
+  }
+
+  .section3 p {
+    text-align: center;
+  }
+
+  .op-hours {
+    background-color: white; 
+    text-align: center; 
+    padding: 20px;
+  }
+
+  .getting-here {
+    background-color: white; 
+    text-align: center; 
+    padding: 20px;
+  }
+
+  .get-here-left {
+    text-align: right;
+    padding-right: 5px;
+  }
+
+  .get-here-right {
+    text-align: left;
+    padding-left: 6px;
+  }
+
+  .bus {
+    border: 1px solid black;
+  }
+
+  .fac {
+    background: white; 
+    text-align: center; 
+    padding: 20px;
+  }
+
+  .get-here-left {
+      text-align: right;
+      padding-right: 5px;
+  }
+
+  .get-here-right {
+      text-align: left;
+      padding-left: 6px;
+  }
+
+  .bus {
+      border: 1px solid black;
+  }
+
+  .fac {
+      background: white; 
+      text-align: center; 
+      padding: 20px;
+  }
+
+  .promos {
+    background: white; 
+    text-align: center; 
+    padding: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+/* attractions.html  */
 
 .opdata td {
   background: white;
