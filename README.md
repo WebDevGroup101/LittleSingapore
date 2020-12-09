@@ -61,7 +61,7 @@ Stated on minimap, brief description only
 Footer
 
 ---
-CSS Content Order & Instructions
+### CSS Content Order & Instructions
 
 Please strictly follow the arrangement and order for the styling instructions in the css file.
 
