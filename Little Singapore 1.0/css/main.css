@@ -1,330 +1,239 @@
-body {
-  font-family: 'Poppins', sans-serif;
-  display: block;
-  
-}
 
-html {
-  scroll-behavior: smooth;
-}
+/* global styling */
+
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .container {
+        margin-bottom: 60px;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0px;
+    }
+
+    a {
+        color: black;
+    }
+
+    a:hover {
+        color: grey;
+    }
 
 /* Bootstrap Navbar Styling */
 
-.nav {
-  height: 100px;
-  background: lightgray;
-  position: relative;
-  width: 100%;
-  font-family: 'Poppins', sans-serif;
-  z-index: 99999;
-  color: black;
-}
-
-a {
-  color: black;
-}
-
-a:hover {
-  color: grey;
-}
-
-.navbar {
-  background: lightgray;
-}
-
-.nav-item {
-  width: 170px;
-  display: inline-block;
-  font-size: larger;
-  background: white;
-  border-radius: 25px;
-  margin-left: 25px;
-  margin-right: 25px;
-}
-
-.nav-item .nav-link {
-  color: black;
-  font-family: 'Poppins', sans-serif;
-}
-
-.navbar-brand {
-  padding-left: 15px;
-  justify-content: center;
-}
-
-.nav-left {
-  margin-top: 27px;
-  text-align: center;
-}
-
-#logo {
-  height: 90px;
-  width: 90px;
-  margin: 5px;
-}
-
-.nav-right {
-  margin-top: 27px;
-  text-align: center
-}
-
-/*Content */
-.section3 a {
-  font-weight: bolder;
-}
-
-.section3 {
-  margin-bottom: 40px;
-}
-
-/* .section3-headers {
-  height: 8vh;
-} */
-
-.section3 img {
-  width: 80%;
-  margin: 10px;
-  padding-bottom: 15px;
-}
-
-.section3 p {
-  text-align: center;
-}
-
-.op-hours {
-  background-color: white; 
-  text-align: center; 
-  padding: 20px;
-}
-
-.getting-here {
-  background-color: white; 
-  text-align: center; 
-  padding: 20px;
-}
-
-.get-here-left {
-  text-align: right;
-  padding-right: 5px;
-}
-
-.get-here-right {
-  text-align: left;
-  padding-left: 6px;
-}
-
-.bus {
-  border: 1px solid black;
-}
-
-.fac {
-  background: white; 
-  text-align: center; 
-  padding: 20px;
-}
-
-.get-here-left {
-    text-align: right;
-    padding-right: 5px;
-}
-
-.get-here-right {
-    text-align: left;
-    padding-left: 6px;
-}
-
-.bus {
-    border: 1px solid black;
-}
-
-.fac {
-    background: white; 
-    text-align: center; 
-    padding: 20px;
-}
-
-.promos {
-  background: white; 
-  text-align: center; 
-  padding: 20px;
-}
-/*Footer Styling  */
-
-.footer {
-  background: lightgray;
-  padding: 10px 0px 10px 0px;
-  width: 100%;
-  position: relative;
-  margin-top: 50px;
-}
-
-.footer-links {
-  font-size: small;
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 0;
-}
-
-.footer-left {
-  vertical-align: middle;
-}
-
-.footer-right {
-  vertical-align: middle;
-}
-
-.socials {
-  float: right;
-  margin-top: 11px;
-}
-
-table.socials {
-  width: 150px;
-  text-align: center;
-}
-
-
-
-
-
-
-
-
-/* attractions.html  */
-
-/* Style the list */
-
-ul.breadcrumb {
-  padding: 10px 10px;
-  list-style: none;
-  position: relative;;
-  background-color: transparent;
-  top:0;
-  width:100%;
-  margin-top: 5px;
-}
-
-/* Display list items side by side */
-
-ul.breadcrumb li {
-  display: inline;
-  font-size: 14px;
-}
-
-/* Add a slash symbol (/) before/behind each list item */
-
-ul.breadcrumb li+li:before {
-  padding: 4px;
-  color: black;
-  content: ">\00a0";
-}
-
-/* Add a color to all links inside the list */
-
-ul.breadcrumb li a {
-  color: #0275d8;
-  text-decoration: none;
-}
-
-/* Add a color on mouse-over */
-
-ul.breadcrumb li a:hover {
-  color: #01447e;
-  text-decoration: underline;
-}
-
-.opdata td {
-  background: white;
-  padding-right: 30px;
-}
-
-.Title {
-  margin-top: 45px;
-  position: relative;
-  margin-bottom: 45px;
-}
-
-.row:after {
-  width: 33.33%;
-}
-
-.map-element img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-}
-
-.map-context {
-  display: flex;
-  margin-left: 20%;
-  width: 60%;
-}
-
-.map-boxinfo {
-  flex: 50%;
-  position: relative;
-  float: left;
-  padding: 2%;
-  justify-content: center;
-}
-
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  border: none;
-  background-color: grey;
-  color: white;
-  cursor: pointer;
-  border-radius: 50%;
-  padding: 16px;
-}
-
-#myBtn:hover {
-  background-color: #555;
-  /* Add a dark-grey background on hover */
-}
-
-.dropbtn {
-  background-color: lightgray;
-  color: black;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: relative;
-  right: 0;
-  background-color: white;
-  min-width: 50px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: lightgray;}
-
-.dropdown:hover .dropdown-content {
-display: block;
-}
-
-.dropdown:hover .dropbtn {
-background-color: darkgray;
-}
+    .nav {
+        height: 100px;
+        width: 100%;
+        background: lightgray;
+        position: relative;
+        font-family: 'Poppins', sans-serif;
+        z-index: 99999;
+        color: black;
+    }
+
+    .navbar {
+        background: lightgray;
+        padding: 0px;
+    }
+
+    /* .nav-item {
+        width: 170px;
+        display: inline-block;
+        font-size: larger;
+        background: white;
+        border-radius: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+
+        margin-top: 27px;
+        text-align: center;
+    } */
+
+    .nav-item {
+        width: 170px;
+        font-size: larger;
+        text-align: center;
+        background: white;
+        border-radius: 25px;
+        margin: auto;
+    }
+
+    .nav-button {
+
+    }
+
+    .navbar-toggler {
+        margin-left: 15px;
+    }
+
+    .navbar-brand {
+        padding-left: 15px;
+        justify-content: center;
+    }
+
+    #logo {
+        height: 90px;
+        width: 90px;
+        background: lightgray;
+        padding: 5px;
+    }
+
+    /* .nav-left {
+        margin-top: 27px;
+        text-align: center;
+    }
+
+    .nav-right {
+        margin-top: 27px;
+        text-align: center
+    } */
+
+/* breadcrumb styling */
+
+    ul.breadcrumb {
+        padding: 10px 10px;
+        list-style: none;
+        position: relative;;
+        background-color: transparent;
+        top:0;
+        width:100%;
+        margin-top: 5px;
+    }
+
+    /* Display list items side by side */
+
+    ul.breadcrumb li {
+        display: inline;
+        font-size: 14px;
+    }
+
+    /* Add a slash symbol (/) before/behind each list item */
+
+    ul.breadcrumb li+li:before {
+        padding: 4px;
+        color: black;
+        content: ">\00a0";
+    }
+
+    /* Add a color to all links inside the list */
+
+    ul.breadcrumb li a {
+        color: #0275d8;
+        text-decoration: none;
+    }
+
+    /* Add a color on mouse-over */
+
+    ul.breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+    }
+
+/* footer styling  */
+
+    .footer {
+        background: lightgray;
+        padding: 10px 0px 10px 0px;
+        width: 100%;
+        position: relative;
+        margin-bottom: 0px;
+    }
+
+    .footer .container {
+        margin-bottom: 0px;
+    }
+
+    .footer .row {
+        margin-top: 0px;
+        padding: 0px, 0px, 0px, 0px;
+    }
+
+    .footer-links {
+        font-size: small;
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    .footer-left {
+        vertical-align: middle;
+    }
+
+    .footer-right {
+        vertical-align: middle;
+    }
+
+    .socials {
+        float: right;
+        margin-top: 11px;
+    }
+
+    table.socials {
+        width: 150px;
+        text-align: center;
+    }
+
+/* homepage styling */
+
+    .quick-info {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .quick-info .container {
+        display: inline;
+        float: left;
+    }
+
+    .quick-info .col-sm {
+        padding: 20px;
+        margin-bottom: 5px;
+    }
+
+    .quick-info h4 {
+        background: white;
+        height: 8%;
+    }
+
+    .quick-info img {
+        background: white;
+        width: 80%;
+        border-radius: 50%;
+        margin: 10px 0px 25px 0px;
+    }
+
+    .quick-info a {
+        font-weight: bold;
+    }
+
+    .snippet.container {
+        margin-top: 45px;
+    }
+
+    .snippet img {
+        width: 100%;
+        border-radius: 25px;
+        margin-bottom: 25px;
+    }
+
+    .snippet .row:nth-of-type(n+2) {
+        margin-top: 25px;
+    }
+
+    .aboutus {
+        text-align: center;
+    }
+
+    .aboutus img {
+        width: 100%;
+        margin-top: 5px;
+        border-radius: 25px;
+    }
+
+    .aboutus p {
+        margin-top: 25px;
+    }
+    
