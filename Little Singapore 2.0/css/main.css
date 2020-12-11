@@ -61,10 +61,6 @@
         margin: auto;
     }
 
-    .nav-button {
-
-    }
-
     .navbar-toggler {
         margin-left: 15px;
     }
@@ -80,16 +76,6 @@
         background: lightgray;
         padding: 5px;
     }
-
-    /* .nav-left {
-        margin-top: 27px;
-        text-align: center;
-    }
-
-    .nav-right {
-        margin-top: 27px;
-        text-align: center
-    } */
 
 /* breadcrumb styling */
 
