@@ -237,3 +237,22 @@
         margin-top: 25px;
     }
     
+/* scroll to top button */
+
+    #myBtn {
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        border: none;
+        background-color: white;
+        color: white;
+        cursor: pointer;
+        border-radius: 50%;
+        padding: 0px;
+    }
+
+    #myBtn:hover {
+        background-color: gray;
+    }
+
