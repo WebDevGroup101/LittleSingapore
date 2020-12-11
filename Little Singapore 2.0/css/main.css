@@ -90,14 +90,12 @@
     }
 
     /* Display list items side by side */
-
     ul.breadcrumb li {
         display: inline;
         font-size: 14px;
     }
 
     /* Add a slash symbol (/) before/behind each list item */
-
     ul.breadcrumb li+li:before {
         padding: 4px;
         color: black;
@@ -105,14 +103,12 @@
     }
 
     /* Add a color to all links inside the list */
-
     ul.breadcrumb li a {
         color: #0275d8;
         text-decoration: none;
     }
 
     /* Add a color on mouse-over */
-
     ul.breadcrumb li a:hover {
         color: #01447e;
         text-decoration: underline;
@@ -221,6 +217,38 @@
 
     .aboutus p {
         margin-top: 25px;
+    }
+
+/* information page styling */
+
+    .infopage .row {
+        margin-top: 20px;
+    }
+
+    .op-hr .row {
+        margin-bottom: 30px;
+        padding-left: 15px;
+    }
+
+    .opdata td {
+        background: white;
+        padding-right: 50px;
+    }
+
+    .gettingHere img {
+        margin-bottom: 20px;
+    }
+
+    .container.facilities {
+        margin-bottom: 30px;
+    }
+
+    .facilities .col-md {
+        margin-bottom: 30px;
+    }
+
+    .facilities img {
+        width: 80%;
     }
     
 /* scroll to top button */

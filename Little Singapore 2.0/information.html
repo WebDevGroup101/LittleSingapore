@@ -12,10 +12,10 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
-        <title>Little Singapore - Home</title>
+        <title>Little Singapore - Information</title>
     </head>
   
-    <body>
+    <body class="infopage">
         <!-- navigation bar -->
         <nav class="navbar navbar-expand-lg navbar-light sticky-top">
 
@@ -55,9 +55,88 @@
             <li>Information</li>
         </ul>
 
-        <!-- insert sections here -->
-        <div>
-            <p>s</p><br><p>s</p><br><p>s</p><br><p>s</p><br><p>s</p><br><p>s</p><br><p>s</p><br><p>s</p><br><p>s</p><br><p>s</p><br><p>s</p><br><p>s</p><br><p>s</p><br>
+        <!-- operating hours information in a table -->
+        <div class="container op-hour">
+            <h3>Operation Hours</h3>
+            <div class="row">
+                <div class="col-md">
+                    <table class="opdata">
+                        <tr><th>Day</th><th>Operating Hours</th></tr>
+                        <tr><td>Monday</td><td>Closed for maintainance this week.</td></tr>
+                        <tr><td>Tuesday</td><td>8 am - 6pm</td></tr>
+                        <tr><td>Wednesday</td><td>8 am - 6pm</td></tr>
+                        <tr><td>Thursday</td><td>8 am - 6pm</td></tr>
+                        <tr><td>Friday</td><td>8 am - 6pm</td></tr>
+                        <tr><td>Saturday</td><td>9 am - 9pm</td></tr>
+                        <tr><td>Sunday</td><td>9 am - 9pm</td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- information on how to get to the park -->
+        <div class="container gettingHere">
+            <h3>Getting Here</h3>
+            <div class="row">
+                <div class="col-lg">
+                    <img src="img/map.png" alt="Directions" style="width: 100%;">
+                </div>
+                <div class="col-sm">
+                    <h4>Public Transport</h4>
+                    <ul>
+                        <li>Bus A, Bus B, Bus C</li>
+                        <li>MRT A</li>
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    <h4>Car</h4>
+                        <ul>
+                        <li>Carpark A, Street Name</li>
+                        <li>Carpark B, Street Name</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <!-- information on the park facilities -->
+         <div class="container facilities">
+            <h3>Facilities Information</h3>
+            <div class="row">
+                <div class="col-md">
+                    <h4>Restaurants &amp; Snack Bar</h4>
+                    <ul>
+                        <li>Restaurant A</li>
+                        <li>Restaurant B</li>
+                        <li>Restaurant C</li>
+                    </ul>
+                    <img src="img/3by2.png" alt="Pictures of food">
+                </div>
+                <div class="col-md">
+                    <h4>ATM Facilities</h4>
+                    <ul>
+                        <li>Bank A</li>
+                        <li>Bank B</li>
+                        <li>Bank C</li>
+                    </ul>
+                    <img src="img/3by2.png" alt="Pictures of facilities">
+                </div>
+            </div>
+        </div>
+        
+        <div class="container support">
+            <h3>Support</h3>
+            <div class="row enquires">
+                <div class="col-md">
+                    <h4>Enquires</h4>
+                    <p>Email: enquires@littlesg.com<br/>
+                        Tel: +65-12345678</p>
+                </div>
+                <div class="col-md">
+                    <h4>Feedback</h4>
+                    <p>Email: feeback@littlesg.com <br/>
+                        Tel: +65-12345678</p>
+                </div>
+            </div>
         </div>
 
         <!-- scroll to top button -->
