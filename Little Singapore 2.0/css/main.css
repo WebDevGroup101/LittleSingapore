@@ -223,6 +223,10 @@
 
 /* attractions page styling */
 
+    .famous-rides img {
+        border-radius: 25px;
+    }
+
 /* information page styling */
 
     .infopage .row {
