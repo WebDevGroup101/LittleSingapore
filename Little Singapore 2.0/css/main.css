@@ -20,7 +20,7 @@
     }
 
     a:hover {
-        color: grey;
+        color: #E64398;
     }
 
 /* Bootstrap Navbar Styling */
@@ -46,6 +46,10 @@
         background: white;
         border-radius: 25px;
         margin: auto;
+    }
+
+    .nav-item a:hover {
+        color: #E64398;
     }
 
     .nav-item:last-child {
