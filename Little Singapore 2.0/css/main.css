@@ -3,6 +3,7 @@
 
     body {
         font-family: 'Poppins', sans-serif;
+        background: #F0EBF4;
     }
 
     .container {
@@ -19,7 +20,7 @@
     }
 
     a:hover {
-        color: grey;
+        color: #E64398;
     }
 
 /* Bootstrap Navbar Styling */
@@ -27,7 +28,6 @@
     .nav {
         height: 100px;
         width: 100%;
-        background: lightgray;
         position: relative;
         font-family: 'Poppins', sans-serif;
         z-index: 99999;
@@ -35,22 +35,9 @@
     }
 
     .navbar {
-        background: lightgray;
+        background: #F172A1;
         padding: 0px;
     }
-
-    /* .nav-item {
-        width: 170px;
-        display: inline-block;
-        font-size: larger;
-        background: white;
-        border-radius: 25px;
-        margin-left: 25px;
-        margin-right: 25px;
-
-        margin-top: 27px;
-        text-align: center;
-    } */
 
     .nav-item {
         width: 170px;
@@ -61,8 +48,17 @@
         margin: auto;
     }
 
-    .nav-button {
+    .nav-item a:hover {
+        color: #E64398;
+    }
 
+    .nav-item:last-child {
+        background: #A1C3D1;
+    }
+
+    /* navbar buttons text */
+    .navbar-light .navbar-nav .nav-link {
+        color: black;
     }
 
     .navbar-toggler {
@@ -77,19 +73,8 @@
     #logo {
         height: 90px;
         width: 90px;
-        background: lightgray;
         padding: 5px;
     }
-
-    /* .nav-left {
-        margin-top: 27px;
-        text-align: center;
-    }
-
-    .nav-right {
-        margin-top: 27px;
-        text-align: center
-    } */
 
 /* breadcrumb styling */
 
@@ -111,7 +96,6 @@
     }
 
     /* Add a slash symbol (/) before/behind each list item */
-
     ul.breadcrumb li+li:before {
         padding: 4px;
         color: black;
@@ -119,14 +103,12 @@
     }
 
     /* Add a color to all links inside the list */
-
     ul.breadcrumb li a {
-        color: #0275d8;
+        color: #E64398;
         text-decoration: none;
     }
 
     /* Add a color on mouse-over */
-
     ul.breadcrumb li a:hover {
         color: #01447e;
         text-decoration: underline;
@@ -135,7 +117,7 @@
 /* footer styling  */
 
     .footer {
-        background: lightgray;
+        background: #F172A1;
         padding: 10px 0px 10px 0px;
         width: 100%;
         position: relative;
@@ -149,6 +131,7 @@
     .footer .row {
         margin-top: 0px;
         padding: 0px, 0px, 0px, 0px;
+        background: none;
     }
 
     .footer-links {
@@ -194,7 +177,6 @@
     }
 
     .quick-info h4 {
-        background: white;
         height: 8%;
     }
 
@@ -236,4 +218,72 @@
     .aboutus p {
         margin-top: 25px;
     }
+
+/* whats new page styling */
+
+    .events h3 {
+        margin-bottom: 20px;
+    }
+
+    .events ul {
+        list-style: circle;
+        padding-left: 20px;
+    }
+
+/* attractions page styling */
+
+    .famous-rides img {
+        border-radius: 25px;
+    }
+
+/* information page styling */
+
+    .infopage .row {
+        margin-top: 20px;
+    }
+
+    .op-hr .row {
+        margin-bottom: 30px;
+        padding-left: 15px;
+    }
+
+    .opdata td {
+        background: white;
+        padding-right: 50px;
+    }
+
+    .gettingHere img {
+        margin-bottom: 20px;
+    }
+
+    .container.facilities {
+        margin-bottom: 30px;
+    }
+
+    .facilities .col-md {
+        margin-bottom: 30px;
+    }
+
+    .facilities img {
+        width: 80%;
+    }
     
+/* scroll to top button */
+
+    #myBtn {
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        border: none;
+        background-color: white;
+        color: white;
+        cursor: pointer;
+        border-radius: 50%;
+        padding: 0px;
+    }
+
+    #myBtn:hover {
+        background-color: gray;
+    }
+
