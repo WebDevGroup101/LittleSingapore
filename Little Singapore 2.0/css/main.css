@@ -61,7 +61,6 @@
         color: black;
     }
 
-
     .navbar-toggler {
         margin-left: 15px;
     }
@@ -90,6 +89,7 @@
     }
 
     /* Display list items side by side */
+
     ul.breadcrumb li {
         display: inline;
         font-size: 14px;
