@@ -85,6 +85,7 @@
 //Get the button:
     mybutton = document.getElementById("myBtn");
 
+<<<<<<< Updated upstream
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function () { scrollFunction() };
 
@@ -93,6 +94,102 @@
             mybutton.style.display = "block";
         } else {
             mybutton.style.display = "none";
+=======
+    <div class="container" style="margin-top: 60px;">
+        <div class="row facilities-info" style="background: white; padding-left: 15px;">
+            <h3>Facilities Information</h3>
+        </div>
+      <div class="row" style="margin-top: 20px; padding-left: 15px;">
+            <div class="col-md" style="padding-left: 0px;">
+                <h4>Carpark</h4>
+                <ul style="list-style: none; padding-left: 0px;">
+                <li>Free parking hours</li>
+                <li>Location</li>
+                <li></li>
+                </ul>
+                <img src="img/3by2.png" style="width: 80%;" alt="Pictures on carpark location">
+          </div>
+          <div class="col-md" style="padding-left: 0px;">
+                <h4>ATM Facilities</h4>
+                <ul style="list-style: none; padding-left: 0px;">
+                <li>Bank A</li>
+                <li>Bank B</li>
+                </ul>
+                <img src="img/3by2.png" style="width: 80%;" alt="Pictures on facilities">
+          </div>
+        </div>
+    </div>
+    
+    <div class="container" style="margin-top: 60px;">
+        <div class="row enquires" style="margin-top: 20px; padding-left: 15px;">
+            <div class="col-md" style="padding-left: 0px;">
+                <h3>Enquires/Feedback</h3>
+                <p>Email: enquires@littlesg.com<br/>
+                    Tel: +65-12345678</p>
+            
+            </div>
+        </div>
+    </div>
+<div class="container" style="margin-top: 60px;">
+        <div class="row enquires" style="margin-top: 20px; padding-left: 15px;">
+            <div class="col-md" style="padding-left: 0px;">
+                <h3>Legal Information</h3>
+                <p>copy right © 2020 Little Singapore<br/>
+                    Other legal Information</p>
+            
+            </div>
+        </div>
+    </div>
+     <!-- footer containing links to social media and information -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 footer-left">
+                    <ul class="footer-links">
+                        <li style="font-size: large;">General Info</li>
+                        <li><a href="#">Operating Hours</a></li>
+                        <li><a href="#">Getting Here</a></li>
+                        <li><a href="#">Facilities</a></li>
+                        <li><a href="#">Legal Information</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 footer-right">
+                    <table class="socials">
+                        <tr>
+                            <td colspan="3" style="text-align: center;">Follow us on</th>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.facebook.com"><img src="img/fb.png" height="30px"></a></td>
+                            <td><a href="https://twitter.com"><img src="img/tw.png" height="33px"></a></td>
+                            <td><a href="https://www.instagram.com"><img src="img/in.png" height="30px"></a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- scroll to top button -->
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <img src="img/scroll1.png" style="width: 20px">
+    </button>
+
+    <script>
+    //Get the button:
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+>>>>>>> Stashed changes
         }
     }
 
