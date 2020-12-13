@@ -14,106 +14,147 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
-    <title>Little Singapore</title>
+    <title>Little Singapore - Information</title>
 
 </head>
 
 <body>
+
+    <!-- navigation bar -->
 
     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="logo">
-              <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="90" height="90"
-                      class="d-inline-block align-top" alt=""></a>
-      </div>
+  
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="nav navbar-nav">
-                <div class="nav-left">
-                    <li class="nav-item">
-                        <a class="nav-link" href="attractions.html">What's New</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="attractions.html">Attractions</a>
-                    </li>
-                </div>
-                <div class="nav-right">
-                    <li class="nav-item">
-                      <a class="nav-link" href="info.html">Information</a>
-                    </li>
-                    <li class="nav-item" style="background-color: darkgray">
-                        <a class="nav-link" href="booknow.html">Book Now</a> 
-                    </li>
-                </div>
-            </ul>
+          <ul class="nav navbar-nav justify-content-center">
+            <div class="nav-left">
+              <li class="nav-item">
+                <a class="nav-link" href="attractions.html" style="color: black;">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="attractions.html" style="color: black;">Attractions</a>
+              </li>
+            </div>
+          </ul>
         </div>
+  
+        <div class="logo">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" width="90" height="90" class="d-inline-block align-top" alt="">
+          </a>
+        </div>
+  
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav justify-content-center">
+            <div class="nav-right">
+              <li class="nav-item">
+                <a class="nav-link" href="info.html" style="color: black;">Information</a>
+              </li>
+              <li class="nav-item" style="background-color: darkgray">
+                  <a class="nav-link" href="booknow.html" style="color: black;">Book Now</a> 
+              </li>
+            </div>
+          </ul>
+      </div>
     </nav>
 
+    <!-- breadcrumb under navigation bar -->
 
-<div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-6 footer-left">
-                <ul class="footer-links">
-                    <li style="font-size: large;">General Info</li>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                </ul>
-            </div>
-            <div class="col-6 footer-right">
-                <table class="socials">
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li>Information</li>
+    </ul>
+    
+    <!-- operating hours information in a table -->
+
+    <div class="container op-hour">
+        <div class="row op-hr" style="background: white; padding-left: 15px;">
+            <h3>Operation Hours</h3>
+        </div>
+        <div class="row" style="margin-bottom: 30px; padding-left: 15px;">
+            <div class="col-md" style="padding-left: 0px;">
+                <table class="opdata" style="padding: 10px;">
                     <tr>
-                        <td colspan="3" style="text-align: center;">Follow us on</th>
+                        <th>Day</th><th>Operating Hours</th>
                     </tr>
                     <tr>
-                        <td><a href="https://www.facebook.com"><img src="img/fb.png" height="30px"></a></td>
-                        <td><a href="https://twitter.com"><img src="img/tw.png" height="33px"></a></td>
-                        <td><a href="https://www.instagram.com"><img src="img/in.png" height="30px"></a></td>
+                        <td>Monday</td><td>Closed for maintainance this week.</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td><td>8 am - 6pm</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td><td>8 am - 6pm</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td><td>8 am - 6pm</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td><td>8 am - 6pm</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td><td>9 am - 9pm</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td><td>9 am - 9pm</td>
                     </tr>
                 </table>
             </div>
         </div>
     </div>
-</div>
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!-- information on how to get to the park -->
 
-<script>
-//Get the button:
-    mybutton = document.getElementById("myBtn");
+    <div class="container gettingHere" style="margin-top: 60px;">
+      <div class="row" style="background: white; padding-left: 15px;">
+        <h3>Getting Here</h3>
+      </div>
+        <div class="row" style="background: white; padding-left: 15px;">
+           <div class="col-md" style="padding-left: 0px;">
+                <img src="img/map.png" alt="Directions" style="width: 100%;">
+            </div>
+            <div class="col-md">
+                <h4>Public Transport</h4>
+                <ul style="list-style: none; padding-left: 0px;">
+                <li>Bus A, Bus B, Bus C</li>
+                <li>MRT A</li>
+                </ul>
+            </div>
+            <div class="col-md">
+                <h4>Car</h4>
+                <ul style="list-style: none; padding-left: 0px;">
+                <li>Carpark A, Street Name</li>
+                <li>Carpark B, Street Name</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-<<<<<<< Updated upstream
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function () { scrollFunction() };
+    <!-- information on the park facilities -->
 
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-        } else {
-            mybutton.style.display = "none";
-=======
     <div class="container" style="margin-top: 60px;">
         <div class="row facilities-info" style="background: white; padding-left: 15px;">
             <h3>Facilities Information</h3>
         </div>
       <div class="row" style="margin-top: 20px; padding-left: 15px;">
             <div class="col-md" style="padding-left: 0px;">
-                <h4>Carpark</h4>
+                <h4>Restaurants &amp; Snack Bar</h4>
                 <ul style="list-style: none; padding-left: 0px;">
-                <li>Free parking hours</li>
-                <li>Location</li>
-                <li></li>
+                <li>Restaurant A</li>
+                <li>Restaurant B</li>
+                <li>Restaurant C</li>
                 </ul>
-                <img src="img/3by2.png" style="width: 80%;" alt="Pictures on carpark location">
+                <img src="img/3by2.png" style="width: 80%;" alt="Pictures on food">
           </div>
           <div class="col-md" style="padding-left: 0px;">
                 <h4>ATM Facilities</h4>
                 <ul style="list-style: none; padding-left: 0px;">
                 <li>Bank A</li>
                 <li>Bank B</li>
+                <li>Bank C</li>
                 </ul>
                 <img src="img/3by2.png" style="width: 80%;" alt="Pictures on facilities">
           </div>
@@ -123,23 +164,18 @@
     <div class="container" style="margin-top: 60px;">
         <div class="row enquires" style="margin-top: 20px; padding-left: 15px;">
             <div class="col-md" style="padding-left: 0px;">
-                <h3>Enquires/Feedback</h3>
+                <h3>Enquires</h3>
                 <p>Email: enquires@littlesg.com<br/>
                     Tel: +65-12345678</p>
-            
             </div>
-        </div>
-    </div>
-<div class="container" style="margin-top: 60px;">
-        <div class="row enquires" style="margin-top: 20px; padding-left: 15px;">
             <div class="col-md" style="padding-left: 0px;">
-                <h3>Legal Information</h3>
-                <p>copy right © 2020 Little Singapore<br/>
-                    Other legal Information</p>
-            
+                <h3>Feedback</h3>
+                <p>Email: feeback@littlesg.com <br/>
+                    Tel: +65-12345678</p>
             </div>
         </div>
     </div>
+
      <!-- footer containing links to social media and information -->
 
     <div class="footer">
@@ -148,10 +184,9 @@
                 <div class="col-6 footer-left">
                     <ul class="footer-links">
                         <li style="font-size: large;">General Info</li>
-                        <li><a href="#">Operating Hours</a></li>
-                        <li><a href="#">Getting Here</a></li>
-                        <li><a href="#">Facilities</a></li>
-                        <li><a href="#">Legal Information</a></li>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
                     </ul>
                 </div>
                 <div class="col-6 footer-right">
@@ -189,14 +224,14 @@
             } else {
                 mybutton.style.display = "none";
             }
->>>>>>> Stashed changes
         }
-    }
 
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
-</script>
-    sdfghjkl;
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+</body>
+
+</html>
