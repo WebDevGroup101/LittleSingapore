@@ -12,10 +12,10 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
-        <title>Little Singapore - Attractions</title>
+        <title>Little Singapore - Information</title>
     </head>
   
-    <body>
+    <body class="infopage">
         <!-- navigation bar -->
         <nav class="navbar navbar-expand-lg navbar-light sticky-top">
 
@@ -52,84 +52,89 @@
         <!-- breadcrumb under navigation bar -->
         <ul class="breadcrumb">
             <li><a href="index.html">Home</a></li>
-            <li>Attractions</li>
+            <li>Information</li>
         </ul>
-      
-        <!-- park map with legends -->
-      
-        <div class="map container">
-        <div class="map-header row" style="background: white; padding-left: 15px; padding-bottom: 20px;">
-            <h3>Park Map</h3>
-        </div>
-            <div class="row" style="background: white;">
-                <div class="map-img col-8" style="background: white; text-align: center;">
-                    <img src="img/map.png" alt="Park Map" width="100%" style="padding-left:0% ;">
+
+        <!-- operating hours information in a table -->
+        <div class="container op-hour">
+            <h3>Operation Hours</h3>
+            <div class="row">
+                <div class="col-md">
+                    <table class="opdata">
+                        <tr><th>Day</th><th>Operating Hours</th></tr>
+                        <tr><td>Monday</td><td>Closed for maintainance this week.</td></tr>
+                        <tr><td>Tuesday</td><td>8 am - 6pm</td></tr>
+                        <tr><td>Wednesday</td><td>8 am - 6pm</td></tr>
+                        <tr><td>Thursday</td><td>8 am - 6pm</td></tr>
+                        <tr><td>Friday</td><td>8 am - 6pm</td></tr>
+                        <tr><td>Saturday</td><td>9 am - 9pm</td></tr>
+                        <tr><td>Sunday</td><td>9 am - 9pm</td></tr>
+                    </table>
                 </div>
-                <div class="map-legends col-4" style="background: white;">
-                    <h4>Map Legend</h4>
-                    <ul legends style="padding-left: 20px; list-style: unset;">
-                        <li>Praesent vel lorem pharetra</li>
-                        <li>Pellentesque et leo ac ante</li>
-                        <li>Nulla malesuada arcu</li>
-                        <li>Aenean laoreet libero non</li>
-                        <li>Sed sed magna</li>
+            </div>
+        </div>
+
+        <!-- information on how to get to the park -->
+        <div class="container gettingHere">
+            <h3>Getting Here</h3>
+            <div class="row">
+                <div class="col-lg">
+                    <img src="img/map.png" alt="Directions" style="width: 100%;">
+                </div>
+                <div class="col-sm">
+                    <h4>Public Transport</h4>
+                    <ul>
+                        <li>Bus A, Bus B, Bus C</li>
+                        <li>MRT A</li>
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    <h4>Car</h4>
+                        <ul>
+                        <li>Carpark A, Street Name</li>
+                        <li>Carpark B, Street Name</li>
                     </ul>
                 </div>
             </div>
         </div>
     
-        <!-- attractions and rides full information -->
-      
-        <div class="famous-rides container" id="attract" style="margin-top: 60px; margin-bottom: 50px;">
-            <div class="famous-header row" style="background: white; padding-left: 15px; padding-bottom: 20px;">
-                <h3>Rides That Made Us Famous</h3>
-            </div>
-            <div class="famous-first-row row" style="text-align: left; padding-bottom: 30px;">
-                <div class="col-md" style="background: white;">
-                    <div style="margin: auto;">
-                        <img src="img/3by2.png" style="width: 100%;" alt="Ride">
-                        <h4 style="margin-top: 20px;">Ride 1</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
-                            venenatis
-                            velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
-                            placerat,
-                            purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
-                            convallis.</p>
-                    </div>
+        <!-- information on the park facilities -->
+         <div class="container facilities">
+            <h3>Facilities Information</h3>
+            <div class="row">
+                <div class="col-md">
+                    <h4>Restaurants &amp; Snack Bar</h4>
+                    <ul>
+                        <li>Restaurant A</li>
+                        <li>Restaurant B</li>
+                        <li>Restaurant C</li>
+                    </ul>
+                    <img src="img/3by2.png" alt="Pictures of food">
                 </div>
-                <div class="col-md" style="background: white;">
-                    <img src="img/3by2.png" style="width: 100%; margin: auto" alt="Ride">
-                    <h4 style="margin-top: 20px;">Ride 2</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
-                    venenatis
-                    velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
-                    placerat,
-                    purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
-                    convallis.</p>
+                <div class="col-md">
+                    <h4>ATM Facilities</h4>
+                    <ul>
+                        <li>Bank A</li>
+                        <li>Bank B</li>
+                        <li>Bank C</li>
+                    </ul>
+                    <img src="img/3by2.png" alt="Pictures of facilities">
                 </div>
             </div>
-            <div class="famous-first-row row" style="text-align: left;">
-                <div class="col-md" style="background: white;">
-                    <div style="margin: auto;">
-                    <img src="img/3by2.png" style="width: 100%;" alt="Ride">
-                    <h4 style="margin-top: 20px;">Ride 3</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
-                        venenatis
-                        velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
-                        placerat,
-                        purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
-                        convallis.</p>
-                    </div>
+        </div>
+        
+        <div class="container support">
+            <h3>Support</h3>
+            <div class="row enquires">
+                <div class="col-md">
+                    <h4>Enquires</h4>
+                    <p>Email: enquires@littlesg.com<br/>
+                        Tel: +65-12345678</p>
                 </div>
-                <div class="col-md" style="background: white;">
-                    <img src="img/3by2.png" style="width: 100%; margin: auto" alt="Ride">
-                    <h4 style="margin-top: 20px;">Ride 4</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
-                    venenatis
-                    velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
-                    placerat,
-                    purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
-                    convallis.</p>
+                <div class="col-md">
+                    <h4>Feedback</h4>
+                    <p>Email: feeback@littlesg.com <br/>
+                        Tel: +65-12345678</p>
                 </div>
             </div>
         </div>
