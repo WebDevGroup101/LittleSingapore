@@ -246,6 +246,10 @@
         padding-left: 20px;
     }
 
+    .events .col-md {
+        margin-bottom: 30px;
+    }
+
 /* attractions page styling */
 
     .famous-rides img {
