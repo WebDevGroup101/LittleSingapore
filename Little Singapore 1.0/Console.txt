@@ -1,4 +1,0 @@
-> array1
-< ReferenceError: Can't find variable: array1
-> array1[0]
-< ReferenceError: Can't find variable: array1
