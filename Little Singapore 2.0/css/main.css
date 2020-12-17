@@ -1,0 +1,288 @@
+
+/* global styling */
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: #F0EBF4;
+    }
+
+    .container {
+        margin-bottom: 60px;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0px;
+    }
+
+    a {
+        color: black;
+    }
+
+    a:hover {
+        color: #E64398;
+    }
+
+/* Bootstrap Navbar Styling */
+
+    .nav {
+        height: 100px;
+        width: 100%;
+        position: relative;
+        font-family: 'Poppins', sans-serif;
+        z-index: 99999;
+        color: black;
+    }
+
+    .navbar {
+        background: #F172A1;
+        padding: 0px;
+    }
+
+    .nav-item {
+        width: 170px;
+        font-size: larger;
+        text-align: center;
+        background: white;
+        border-radius: 25px;
+        margin: auto;
+    }
+
+    .nav-item a:hover {
+        color: #E64398;
+    }
+
+    .nav-item:last-child {
+        background: #A1C3D1;
+    }
+
+    /* navbar buttons text */
+    .navbar-light .navbar-nav .nav-link {
+        color: black;
+    }
+
+    .navbar-toggler {
+        margin-left: 15px;
+    }
+
+    .navbar-brand {
+        padding-left: 15px;
+        justify-content: center;
+    }
+
+    #logo {
+        height: 90px;
+        width: 90px;
+        padding: 5px;
+    }
+
+/* breadcrumb styling */
+
+    ul.breadcrumb {
+        padding: 10px 10px;
+        list-style: none;
+        position: relative;;
+        background-color: transparent;
+        top:0;
+        width:100%;
+        margin-top: 5px;
+    }
+
+    /* Display list items side by side */
+
+    ul.breadcrumb li {
+        display: inline;
+        font-size: 14px;
+    }
+
+    /* Add a slash symbol (/) before/behind each list item */
+    ul.breadcrumb li+li:before {
+        padding: 4px;
+        color: black;
+        content: ">\00a0";
+    }
+
+    /* Add a color to all links inside the list */
+    ul.breadcrumb li a {
+        color: #E64398;
+        text-decoration: none;
+    }
+
+    /* Add a color on mouse-over */
+    ul.breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+    }
+
+/* footer styling  */
+
+    .footer {
+        background: #F172A1;
+        padding: 10px 0px 10px 0px;
+        width: 100%;
+        position: relative;
+        margin-bottom: 0px;
+    }
+
+    .footer .container {
+        margin-bottom: 0px;
+    }
+
+    .footer .row {
+        margin-top: 0px;
+        padding: 0px, 0px, 0px, 0px;
+        background: none;
+    }
+
+    .footer-links {
+        font-size: small;
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    .footer-left {
+        vertical-align: middle;
+    }
+
+    .footer-right {
+        vertical-align: middle;
+    }
+
+    .socials {
+        float: right;
+        margin-top: 11px;
+    }
+
+    table.socials {
+        width: 150px;
+        text-align: center;
+    }
+
+/* homepage styling */
+
+    .quick-info {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .quick-info .container {
+        display: inline;
+        float: left;
+    }
+
+    .quick-info .col-sm {
+        padding: 20px;
+        margin-bottom: 5px;
+    }
+
+    .quick-info h4 {
+        height: 8%;
+    }
+
+    .quick-info img {
+        background: white;
+        width: 80%;
+        border-radius: 50%;
+        margin: 10px 0px 25px 0px;
+    }
+
+    .quick-info a {
+        font-weight: bold;
+    }
+
+    .snippet.container {
+        margin-top: 45px;
+    }
+
+    .snippet img {
+        width: 100%;
+        border-radius: 25px;
+        margin-bottom: 25px;
+    }
+
+    .snippet .row:nth-of-type(n+2) {
+        margin-top: 25px;
+    }
+
+    .aboutus {
+        text-align: center;
+    }
+
+    .aboutus img {
+        width: 100%;
+        margin-top: 5px;
+        border-radius: 25px;
+    }
+
+    .aboutus p {
+        margin-top: 25px;
+    }
+
+/* whats new page styling */
+
+    .events h3 {
+        margin-bottom: 20px;
+    }
+
+    .events ul {
+        list-style: circle;
+        padding-left: 20px;
+    }
+
+/* attractions page styling */
+
+    .famous-rides img {
+        border-radius: 25px;
+    }
+
+/* information page styling */
+
+    .infopage .row {
+        margin-top: 20px;
+    }
+
+    .op-hr .row {
+        margin-bottom: 30px;
+        padding-left: 15px;
+    }
+
+    .opdata td {
+        padding-right: 50px;
+    }
+
+    .gettingHere img {
+        margin-bottom: 20px;
+    }
+
+    .container.facilities {
+        margin-bottom: 30px;
+    }
+
+    .facilities .col-md {
+        margin-bottom: 30px;
+    }
+
+    .facilities img {
+        width: 80%;
+    }
+    
+/* scroll to top button */
+
+    #myBtn {
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        border: none;
+        background-color: white;
+        color: white;
+        cursor: pointer;
+        border-radius: 50%;
+        padding: 0px;
+    }
+
+    #myBtn:hover {
+        background-color: gray;
+    }
+
