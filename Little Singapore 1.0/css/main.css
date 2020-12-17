@@ -225,6 +225,12 @@
         margin-bottom: 20px;
     }
 
+    .jumbotron {
+      background-color: #F0EBF4;
+      margin-top: -3rem;
+      margin-bottom: -4rem;
+    }
+
     .events ul {
         list-style: circle;
         padding-left: 20px;
@@ -266,6 +272,7 @@
     .facilities img {
         width: 80%;
     }
+
     
 /* scroll to top button */
 
