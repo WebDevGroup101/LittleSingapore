@@ -1,6 +1,10 @@
 
 /* global styling */
 
+    html {
+        scroll-behavior: smooth;
+    }
+
     body {
         font-family: 'Poppins', sans-serif;
         background: #F0EBF4;
