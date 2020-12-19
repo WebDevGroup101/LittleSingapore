@@ -14,6 +14,17 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
     <title>Little Singapore - Book Now</title>
 </head>
 
@@ -50,10 +61,35 @@
     </nav>
 
     <!-- breadcrumb under navigation bar -->
-    <ul class="breadcrumb">
-        <li><a href="index.html">Home</a></li>
-        <li>Book Now</li>
-    </ul>
+    <div class="container breadcrumb">
+        <div class="row">
+            <div class="col-sm">
+                <ul class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li>Book Now</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- cart summary 2 electric boogaloo-->
+    <nav class="sticky-container sticky-top">
+        <div class="btn cartsum-button">
+            <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Cart Summary
+            </button>
+            <div class="dropdown-menu cartsum-list">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>
+    </nav>
+    </div>
+    </div>
+    </div>
+
 
     <!-- cart summary -->
     <!-- <div class="container date-box section2">
@@ -89,8 +125,6 @@
             <a href="#" class="dropdown-checkout">Checkout</a>
         </div>
     </div> -->
-
-
 
     <!-- promotions section -->
 
@@ -190,35 +224,33 @@
         <div class="row">
             <div class="col-md">
                 <div class="card" style="width: 18rem;">
-                    <div class="card-body" style="background-color:#B39BC8; text-align: center; color: white;">
+                    <div class="card-body title">
                         <h4>1-Day Theme Park</h4>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body price">
                         <div class="row" style="text-align: center;">
                             <div class="col-md">
-                                <p style="font-size: 12px; margin: -0.1rem;">Adult</p>
-                                <p style="font-size: 20px;">$49.99SGD</p>
+                                <p>Adult</p>
+                                <p2>$49.99SGD</p2>
                             </div>
                             <div class="col-md">
-                                <p style="font-size: 12px; margin: -0.1rem;">Child</p>
-                                <p style="font-size: 20px;">$29.99SGD</p>
+                                <p>Child</p>
+                                <p2>$29.99SGD</p2>
                             </div>
                         </div>
                     </div>
-                    <div class="card-body"
-                        style="background-color:#F172A1; text-align: center; color: white; height: auto; font-size: 14px; padding: 1px; margin-top: -1.5rem;">
+                    <div class="card-body strip">
                         Most Popular
                     </div>
                     <img class="card-img-top" src="img/cardimage.svg" alt="Card image cap">
-                    <div class="card-body"
-                        style="background-color:#F172A1; text-align: center; color: white; height: auto; font-size: 14px; padding: 1px;">
+                    <div class="card-body strip">
                         Theme Park
                     </div>
-                    <div class="card-body">
-                        <p class="card-text" style="text-align: center;">Same Price as Single-Park Annual Pass for MyKad
+                    <div class="card-body content">
+                        <p class="card-text">Same Price as Single-Park Annual Pass for MyKad
                         </p>
                         <hr>
-                        <ul style="text-align: center;">
+                        <ul>
                             <li>1-Day access to Theme Park</li>
                             <li>FREE for Children under 3 years</li>
                         </ul>
@@ -227,7 +259,80 @@
                         <button class="dropbtn">Buy Ticket</button>
                         <div class="dropdown-content">
                             <a href="#">Adult Ticket</a>
+                            <div class="container quantity">
+                                <form class="quantity-selector" action="">
+                                    <label for="quantity">Quantity:</label>
+                                    <input type="number" id="quantity" name="quantity" min="1" max="19">
+                                    <input type="submit">
+                                </form>
+                            </div>
                             <a href="#">Child Ticket</a>
+                            <div class="container quantity">
+                                <form action="">
+                                    <label for="quantity">Quantity:</label>
+                                    <input type="number" id="quantity" name="quantity" min="1" max="19">
+                                    <input type="submit">
+                                </form>
+
+                            </div>
+                            <a href="#" class="dropdown-checkout">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body title">
+                        <h4>1-Day Theme Park</h4>
+                    </div>
+                    <div class="card-body price">
+                        <div class="row" style="text-align: center;">
+                            <div class="col-md">
+                                <p>Adult</p>
+                                <p2>$49.99SGD</p2>
+                            </div>
+                            <div class="col-md">
+                                <p>Child</p>
+                                <p2>$29.99SGD</p2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body strip">
+                        Most Popular
+                    </div>
+                    <img class="card-img-top" src="img/cardimage.svg" alt="Card image cap">
+                    <div class="card-body strip">
+                        Theme Park
+                    </div>
+                    <div class="card-body content">
+                        <p class="card-text">Same Price as Single-Park Annual Pass for MyKad
+                        </p>
+                        <hr>
+                        <ul>
+                            <li>1-Day access to Theme Park</li>
+                            <li>FREE for Children under 3 years</li>
+                        </ul>
+                    </div>
+                    <div class="dropdown col-md">
+                        <button class="dropbtn">Buy Ticket</button>
+                        <div class="dropdown-content">
+                            <a href="#">Adult Ticket</a>
+                            <div class="container quantity">
+                                <form class="quantity-selector" action="">
+                                    <label for="quantity">Quantity:</label>
+                                    <input type="number" id="quantity" name="quantity" min="1" max="19">
+                                    <input type="submit">
+                                </form>
+                            </div>
+                            <a href="#">Child Ticket</a>
+                            <div class="container quantity">
+                                <form action="">
+                                    <label for="quantity">Quantity:</label>
+                                    <input type="number" id="quantity" name="quantity" min="1" max="19">
+                                    <input type="submit">
+                                </form>
+                            </div>
                             <a href="#" class="dropdown-checkout">Add to cart</a>
                         </div>
                     </div>
@@ -235,35 +340,33 @@
             </div>
             <div class="col-md">
                 <div class="card" style="width: 18rem;">
-                    <div class="card-body" style="background-color:#B39BC8; text-align: center; color: white;">
+                    <div class="card-body title">
                         <h4>1-Day Theme Park</h4>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body price">
                         <div class="row" style="text-align: center;">
                             <div class="col-md">
-                                <p style="font-size: 12px; margin: -0.1rem;">Adult</p>
-                                <p style="font-size: 20px;">$49.99SGD</p>
+                                <p>Adult</p>
+                                <p2>$49.99SGD</p2>
                             </div>
                             <div class="col-md">
-                                <p style="font-size: 12px; margin: -0.1rem;">Child</p>
-                                <p style="font-size: 20px;">$29.99SGD</p>
+                                <p>Child</p>
+                                <p2>$29.99SGD</p2>
                             </div>
                         </div>
                     </div>
-                    <div class="card-body"
-                        style="background-color:#F172A1; text-align: center; color: white; height: auto; font-size: 14px; padding: 1px; margin-top: -1.5rem;">
+                    <div class="card-body strip">
                         Most Popular
                     </div>
                     <img class="card-img-top" src="img/cardimage.svg" alt="Card image cap">
-                    <div class="card-body"
-                        style="background-color:#F172A1; text-align: center; color: white; height: auto; font-size: 14px; padding: 1px;">
+                    <div class="card-body strip">
                         Theme Park
                     </div>
-                    <div class="card-body">
-                        <p class="card-text" style="text-align: center;">Same Price as Single-Park Annual Pass for MyKad
+                    <div class="card-body content">
+                        <p class="card-text">Same Price as Single-Park Annual Pass for MyKad
                         </p>
                         <hr>
-                        <ul style="text-align: center;">
+                        <ul>
                             <li>1-Day access to Theme Park</li>
                             <li>FREE for Children under 3 years</li>
                         </ul>
@@ -272,52 +375,21 @@
                         <button class="dropbtn">Buy Ticket</button>
                         <div class="dropdown-content">
                             <a href="#">Adult Ticket</a>
-                            <a href="#">Child Ticket</a>
-                            <a href="#" class="dropdown-checkout">Add to cart</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body" style="background-color:#B39BC8; text-align: center; color: white;">
-                        <h4>1-Day Theme Park</h4>
-                    </div>
-                    <div class="card-body">
-                        <div class="row" style="text-align: center;">
-                            <div class="col-md">
-                                <p style="font-size: 12px; margin: -0.1rem;">Adult</p>
-                                <p style="font-size: 20px;">$49.99SGD</p>
+                            <div class="container quantity">
+                                <form class="quantity-selector" action="">
+                                    <label for="quantity">Quantity:</label>
+                                    <input type="number" id="quantity" name="quantity" min="1" max="19">
+                                    <input type="submit">
+                                </form>
                             </div>
-                            <div class="col-md">
-                                <p style="font-size: 12px; margin: -0.1rem;">Child</p>
-                                <p style="font-size: 20px;">$29.99SGD</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body"
-                        style="background-color:#F172A1; text-align: center; color: white; height: auto; font-size: 14px; padding: 1px; margin-top: -1.5rem;">
-                        Most Popular
-                    </div>
-                    <img class="card-img-top" src="img/cardimage.svg" alt="Card image cap">
-                    <div class="card-body"
-                        style="background-color:#F172A1; text-align: center; color: white; height: auto; font-size: 14px; padding: 1px;">
-                        Theme Park
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text" style="text-align: center;">Same Price as Single-Park Annual Pass for MyKad
-                        </p>
-                        <hr>
-                        <ul style="text-align: center;">
-                            <li>1-Day access to Theme Park</li>
-                            <li>FREE for Children under 3 years</li>
-                        </ul>
-                    </div>
-                    <div class="dropdown col-md">
-                        <button class="dropbtn">Buy Ticket</button>
-                        <div class="dropdown-content">
-                            <a href="#">Adult Ticket</a>
                             <a href="#">Child Ticket</a>
+                            <div class="container quantity">
+                                <form action="">
+                                    <label for="quantity">Quantity:</label>
+                                    <input type="number" id="quantity" name="quantity" min="1" max="19">
+                                    <input type="submit">
+                                </form>
+                            </div>
                             <a href="#" class="dropdown-checkout">Add to cart</a>
                         </div>
                     </div>
