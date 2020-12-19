@@ -33,9 +33,6 @@
             <div class="collapse navbar-collapse nav-button" id="navbarNav">
                 <ul class="nav navbar-nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="whatsnew.html">What's New</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="attractions.html">Attractions</a>
                     </li>
                     <li class="nav-item">
@@ -67,14 +64,66 @@
                     </form>
                     </div>
                 </div>
-                <div class="dropdown col-md" style="padding-left: 25px;">
-                    <button class="dropbtn" style="width: 100%;">Cart Summary</button>
+                <div class="dropdown col-md">
+                    <button class="dropbtn">Cart Summary</button>
                     <div class="dropdown-content">
                         <a href="#">Adult Tickets: 2</a>
                         <a href="#">Child Tickets: 2</a>
                         <a href="#">Passes: 0</a>
-                        <a href="#" style="margin: 30px 0px 0px">Checkout</a>
+                        <a href="#" class="dropdown-checkout">Checkout</a>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- promotions section -->
+
+        <div class="jumbotron container" style = "text-align: center;">
+            <h1 class="display-4">Current Promotions</h1>
+            <p class="lead">Don't miss out on our amazing holiday specials and limited-time deals! Awesome savings that the whole family can enjoy!</p>
+            <hr class="my-4">
+            <p>Have a look down below at our special coupons!</p>
+            <p class="lead">
+                <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Share Now</a> -->
+            </p>
+        </div>
+
+        <!-- promo coupons -->
+
+        <div class="promotions container">
+            <div class="row">
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">25% Off at Checkout</h5>
+                            <h6 class="card-subtitle mb-2 text-muted"><i>LILSG25OFF</i></h6>
+                            <p class="card-text">Minimum cart value of $200 Valid Until 10 January 2021 <br><br> Terms and Conditions Apply</p>
+                            <!-- <a href="#" class="card-link">Copy Code</a> -->
+                            <a href="#" class="card-link">Go to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">2 For 1 Child Ticket</h5>
+                            <h6 class="card-subtitle mb-2 text-muted"><i>CHILD2FOR1</i></h6>
+                            <p class="card-text">Minimum cart value of $200 Valid Until 10 January 2021 <br><br> Terms and Conditions Apply</p>
+                            <!-- <a href="#" class="card-link">Copy Code</a> -->
+                            <a href="#" class="card-link">Go to Cart</a>
+                        </div>
+                        </div>
+                </div>
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">50% Off FastPass</h5>
+                            <h6 class="card-subtitle mb-2 text-muted"><i>FAST50OFF</i></h6>
+                            <p class="card-text">Minimum cart value of $75 Valid Until 10 January 2021 <br><br> Terms and Conditions Apply</p>
+                            <!-- <a href="#" class="card-link">Copy Code</a> -->
+                            <a href="#" class="card-link">Go to Cart</a>
+                        </div>
+                        </div>
                 </div>
             </div>
         </div>
@@ -123,7 +172,7 @@
                     <h4 class="card-title">Adult Ticket</h4>
                     <p class="card-text">For adults</p>
                     <table style="width: 100%;">
-                        <tr style="background: white;">
+                        <tr>
                             <td>Ticket for 1 adult.</td>
                             <td style="padding: 10px; float: right;"><a href="#" class="btn btn-primary">Add to cart</a></td>
                         </tr>
@@ -137,7 +186,7 @@
                         <h4 class="card-title">Child Ticket</h4>
                         <p class="card-text">For children ages 12 and under.</p>
                         <table style="width: 100%;">
-                            <tr style="background: white;">
+                            <tr>
                                 <td>Ticket for 1 child</td>
                                 <td style="padding: 10px; float: right;"><a href="#" class="btn btn-primary">Add to cart</a></td>
                             </tr>
@@ -153,7 +202,7 @@
                     <h4 class="card-title">Elderly and Handicaped Ticket</h4>
                     <p class="card-text">For the elderly and handicaped.</p>
                     <table style="width: 100%;">
-                        <tr style="background: white;">
+                        <tr>
                             <td>Ticket for 1 adult.</td>
                             <td style="padding: 10px; float: right;"><a href="#" class="btn btn-primary">Add to cart</a></td>
                         </tr>
@@ -167,11 +216,11 @@
                         <h4 class="card-title">Annual Pass</h4>
                         <p class="card-text">Unlimited access to the park for 1 year after date of purchase</p>
                         <table style="width: 100%;">
-                        <tr style="background: white;">
+                        <tr>
                             <td>1 adult annual pass</td>
                             <td style="padding: 10px; float: right;"><a href="#" class="btn btn-primary">Add to cart</a></td>
                         </tr>
-                        <tr style="background: white; padding-top: 0px;">
+                        <tr>
                             <td>1 child annual pass</td>
                             <td style="padding: 10px; float: right;"><a href="#" class="btn btn-primary">Add to cart</a></td>
                             </tr>

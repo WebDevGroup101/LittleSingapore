@@ -239,6 +239,7 @@ table.socials {
   background-color: #F0EBF4;
   margin-top: -3rem;
   margin-bottom: -4rem;
+  text-align: center
 }
 
 .events ul {
@@ -283,21 +284,83 @@ table.socials {
   width: 80%;
 }
 
+/* book now page styling */
+
+    /* cart */
+
+    .dropbtn {
+        background-color: lightgray;
+        color: black;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        padding-left: 25px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: relative;
+        right: 0;
+        background-color: white;
+        min-width: 50px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-checkout {
+      margin: 30px 0px 0px;
+    }
+
+    .dropdown-content a:hover {
+        background-color: lightgray;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: darkgray;
+    }
+
+    /* Card Styling */
+
+    .card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    }
+
+
+
 /* scroll to top button */
 
 #myBtn {
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  border: none;
-  background-color: white;
-  color: white;
-  cursor: pointer;
-  border-radius: 50%;
-  padding: 0px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 0px;
 }
 
 #myBtn:hover {
-  background-color: gray;
+    background-color: #A1C3D1;
 }
