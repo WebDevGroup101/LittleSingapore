@@ -1,0 +1,494 @@
+/* global styling */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #F0EBF4;
+}
+
+.container {
+  margin-bottom: 60px;
+  background-color: #F0EBF4;
+  /* #9F3D91 */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #E64398;
+}
+
+.btn {
+  background: #F172A1;
+  border: 0px;
+}
+
+.btn:hover {
+  background: #9F3D91;
+  border: 0px;
+}
+
+/* Bootstrap Navbar Styling */
+
+.nav {
+  height: 100px;
+  width: 100%;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  z-index: 99999;
+  color: black;
+}
+
+.navbar {
+  background: #F172A1;
+  padding: 0px;
+}
+
+.nav-item {
+  width: 170px;
+  font-size: larger;
+  text-align: center;
+  background: white;
+  border-radius: 25px;
+  margin: auto;
+}
+
+.nav-item a:hover {
+  color: #E64398;
+}
+
+.nav-item:last-child {
+  background: #A1C3D1;
+}
+
+/* navbar buttons text */
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-toggler {
+  margin-left: 15px;
+}
+
+.navbar-brand {
+  padding-left: 15px;
+  justify-content: center;
+}
+
+#logo {
+  height: 90px;
+  width: 90px;
+  padding: 5px;
+}
+
+/* breadcrumb styling */
+
+ul.breadcrumb {
+  padding: 10px 10px;
+  list-style: none;
+  position: relative;
+  background-color: transparent;
+  top: 0;
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* Display list items side by side */
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 14px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+
+ul.breadcrumb li+li:before {
+  padding: 4px;
+  color: black;
+  content: ">\00a0";
+}
+
+/* Add a color to all links inside the list */
+
+ul.breadcrumb li a {
+  color: #E64398;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+/* footer styling  */
+
+.footer {
+  background: #F172A1;
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.footer .container {
+  margin-bottom: 0px;
+  background: #F172A1;
+}
+
+.footer .row {
+  margin-top: 0px;
+  padding: 0px, 0px, 0px, 0px;
+  background: none;
+}
+
+.footer-links {
+  font-size: small;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.footer-left {
+  vertical-align: middle;
+}
+
+.footer-right {
+  vertical-align: middle;
+}
+
+.socials {
+  float: right;
+  margin-top: 11px;
+}
+
+table.socials {
+  width: 150px;
+  text-align: center;
+}
+
+.privacypolicy {
+  padding: 25px;
+}
+
+/* homepage styling */
+
+.quick-info {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.quick-info .container {
+  display: inline;
+  float: left;
+}
+
+.quick-info .col-sm {
+  padding: 20px;
+  margin-bottom: 5px;
+}
+
+.quick-info h4 {
+  height: 8%;
+}
+
+.quick-info img {
+  background: white;
+  width: 80%;
+  border-radius: 50%;
+  margin: 10px 0px 25px 0px;
+}
+
+.quick-info a {
+  font-weight: bold;
+}
+
+.snippet.container {
+  margin-top: 45px;
+}
+
+.snippet img {
+  width: 100%;
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+
+.snippet .row:nth-of-type(n+2) {
+  margin-top: 25px;
+}
+
+.aboutus {
+  text-align: center;
+}
+
+.aboutus img {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 25px;
+}
+
+.aboutus p {
+  margin-top: 25px;
+}
+
+/* whats new page styling */
+
+.events h3 {
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+  background-color: #F0EBF4;
+  margin-top: 35px;
+  margin-bottom: -4rem;
+  text-align: center
+}
+
+.events ul {
+  list-style: circle;
+  padding-left: 20px;
+}
+
+/* attractions page styling */
+
+.map img {
+  width: 100%;
+  padding-left: 0px;
+}
+
+.map-legends ul {
+  padding-left: 20px;
+  list-style: unset;
+}
+
+.famous-rides img {
+  border-radius: 25px;
+  width: 100%;
+}
+
+.famous-rides h4 {
+  margin-top: 25px;
+}
+
+.famous-rides p {
+  padding-bottom: 20px;
+}
+
+/* information page styling */
+
+.infopage .row {
+  margin-top: 20px;
+}
+
+.op-hr .row {
+  margin-bottom: 30px;
+  padding-left: 15px;
+}
+
+.opdata td {
+  padding-right: 50px;
+}
+
+.gettingHere img {
+  margin-bottom: 20px;
+}
+
+.container.facilities {
+  margin-bottom: 30px;
+}
+
+.facilities .col-md {
+  margin-bottom: 30px;
+}
+
+.facilities img {
+  width: 80%;
+}
+
+/* Book now page styling */
+
+/* Cart summary styling */
+
+.card-link {
+  background-color: #F172A1;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Buy ticket styling */
+
+.tickets .dropbtn {
+  background-color: #F172A1;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.tickets .dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 0px;
+}
+
+.tickets .dropdown-content {
+  display: none;
+  position: relative;
+  right: 0;
+  background-color: white;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.tickets .dropdown-content a {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.tickets .dropdown-checkout {
+  margin: 30px 0px 0px;
+}
+
+.tickets .dropdown-content a:hover {
+  background-color: #F172A1;
+}
+
+.tickets .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.tickets .dropdown:hover .dropbtn {
+  background-color: #9F3D91;
+}
+
+/* Card Styling */
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
+/* scroll to top button */
+
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 0px;
+}
+
+#myBtn:hover {
+  background-color: #A1C3D1;
+}
+
+/* more testing */
+
+.containerpopup {
+  padding-left: 22px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: center;
+}
+
+.containerpopup img {
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.containerpopup h3 {
+  text-align: center;
+}
+
+.quantity {
+  margin: 0px;
+  background-color: white;
+}
+
+.tickets .title {
+  background-color: #B39BC8;
+  text-align: center;
+  color: white;
+}
+
+.tickets .price {
+  text-align: center;
+}
+
+.tickets .price p {
+  font-size: 12px;
+  margin: -0.1rem;
+}
+
+.tickets .price p2 {
+  font-size: 20px;
+}
+
+.tickets .strip {
+  background-color: #F172A1;
+  text-align: center;
+  color: white;
+  height: auto;
+  font-size: 14px;
+  padding: 1px;
+  margin-top: -1rem;
+}
+
+.tickets .content {
+  text-align: center;
+}
+
+.tickets .content ul {
+  text-align: center;
+}
+
+/* cart summary 2 electric boogaloo */
+
+.sticky-container {
+  top: 100px;
+  float: right;
+}
+
+.sticky-container button {
+    border-radius: 0px;
+}
+
+
+/* .cartsum-button {
+  width: auto;
+  float: right;
+} */
+
+.container.breadcrumb {
+  position: absolute;
+  width: 45%;
+  margin-left: -1rem;
+  margin-top: -1rem;
+  background: rgba(240, 235, 244, 0.1)
+}
