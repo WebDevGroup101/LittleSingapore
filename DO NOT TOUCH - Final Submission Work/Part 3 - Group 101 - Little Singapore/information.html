@@ -28,65 +28,54 @@
     
         <title>Little Singapore - Information</title>
         <link rel="shortcut icon" type="image/jpg" href="img/logo.png"/>
-
-        <style>
-            .container {
-                margin-top: 50px;
-            } 
-        </style>
     </head>
 
     <body>
         <!-- navigation bar -->
-        <nav class="navbar" style="background: grey; height: 100px; width: 100%; padding: 0px 20px; position: fixed; z-index: 999;">
+        <nav class="navbar">
             <!-- logo -->
             <div class="logo">
                 <a class="navbar-brand" href="index.html">
-                    <img src="img/logo.png" alt="Logo" style="background: grey; height: 90px; width: 90px; padding: 5px;">
+                    <img src="img/logo.png" alt="Logo">
                 </a>
             </div>
             <!-- navigation buttons -->
-            <div class="navbar-buttons" style="background-color: grey; padding: 5px;">
-                <button type="button" onclick="location.href = 'attractions.html';" >Attractions</button>
-                <button type="button" onclick="location.href = 'information.html';" >Information</button>
-                <button type="button" onclick="location.href = 'booknow.html';" >Book Now</button>
+            <div class="navbar-buttons">
+                <button type="button" onclick="location.href='attractions.html';">Attractions</button>
+                <button type="button" onclick="location.href='information.html';">Information</button>
+                <button type="button" onclick="location.href='booknow.html';">Book Now</button>
             </div>
         </nav>
 
         <!-- breadcrumb under navigation bar -->
-        <div>
-            <div class="row" style="width: 100%;">
-                <ul class="breadcrumb" style="margin-top: 100px; padding: 12px 32px; list-style: none; background-color: transparent; font-size: 14px">
-                    <li><a href="index.html">Home</a></li>
-                    <li>/Information</li>
-                </ul>
-            </div>
+        <div class="breadcrumb">
+            <p><a href="index.html">Home</a> / Information</p>
         </div>
 
         <!-- information on how to get to the park -->
-        <div class="container directions" style="margin-top: 0px;">
+        <div class="container directions">
             <h3>Getting Here</h3>
             <div class="row">
                 <div class="col-lg-8">
-                    <img src="img/map.png" alt="Directions" style="width: 100%;">
+                    <img src="img/map.png" alt="Directions">
                 </div>
                 <div class="col-md">
                     <div>
                         <h4>Public Transport</h4>
-                        <ul style="list-style: none; padding-left: 0px;">
+                        <ul>
                             <li>Bus A, Bus B, Bus C</li>
                             <li>MRT Station: Station 113</li>
                         </ul>
                     </div>
                     <div>
                         <h4>Car</h4>
-                        <ul style="list-style: none; padding-left: 0px;">
+                        <ul>
                             <li><b>Carpark A, Street Name</b></li>
                             <li>Parking Rates:</li>
                             <li>Weekdays - $2/hr</li>
                             <li>Weekends - $2/hr</li>
                         </ul>
-                        <ul style="list-style: none; padding-left: 0px;">
+                        <ul>
                             <li><b>Carpark B, Street Name</b></li>
                             <li>Parking Rates:</li>
                             <li>Weekdays - $1/hr</li>
@@ -99,42 +88,42 @@
 
         <div class="container facilities">
             <h3>Amenities & Facilities</h3>
-            <div class="row" style="margin-top: 20px;">
+            <div class="row">
                 <div class="col-md">
                     <h4>Lim's Burger Joint</h4>
-                    <img src="img/3by2.png" alt="" style="width: 100%; border-radius: 25px;">
+                    <img src="img/3by2.png" alt="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo elementum sem, at lobortis leo rhoncus in.</p>
                 </div>
                 <div class="col-md">
                     <h4>Atas Bagus</h4>
-                    <img src="img/3by2.png" alt="" style="width: 100%; border-radius: 25px;">
+                    <img src="img/3by2.png" alt="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo elementum sem, at lobortis leo rhoncus in.</p>
                 </div>
                 <div class="col-md">
                     <h4>Ninja Van</h4>
-                    <img src="img/3by2.png" alt="" style="width: 100%; border-radius: 25px;">
+                    <img src="img/3by2.png" alt="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo elementum sem, at lobortis leo rhoncus in.</p>
                 </div>
             </div>
-            <div class="row" style="margin-top: 20px;">
+            <div class="row">
                 <div class="col-md">
                     <h4>Merchandise Store</h4>
-                    <img src="img/3by2.png" alt="" style="width: 100%; border-radius: 25px;">
+                    <img src="img/3by2.png" alt="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo elementum sem, at lobortis leo rhoncus in.</p>
                 </div>
                 <div class="col-md">
                     <h4>ATM</h4>
-                    <img src="img/3by2.png" alt="" style="width: 100%; border-radius: 25px;">
+                    <img src="img/3by2.png" alt="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo elementum sem, at lobortis leo rhoncus in.</p>
                 </div>
                 <div class="col-md">
                     <h4>Medical Centre</h4>
-                    <img src="img/3by2.png" alt="" style="width: 100%; border-radius: 25px;">
+                    <img src="img/3by2.png" alt="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo elementum sem, at lobortis leo rhoncus in.</p>
                 </div>
                 <div class="col-md">
                     <h4>Nursing Room</h4>
-                    <img src="img/3by2.png" alt="" style="width: 100%; border-radius: 25px;">
+                    <img src="img/3by2.png" alt="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo elementum sem, at lobortis leo rhoncus in.</p>
                 </div>
             </div>
@@ -166,21 +155,21 @@
         </div>
 
         <!-- footer -->
-        <div class="footer" style="background: grey;">
+        <div class="footer">
             <div class="container">
                 <div class="row">                
                     <div class="col-md">
-                        <ul style="list-style: none; padding-left: 0px; margin: auto;">
+                        <ul>
                             <li>Footer Links</li>
-                            <li><a href="#" style="color: black;">Link 1</a></li>
-                            <li><a href="#" style="color: black;">Link 2</a></li>
-                            <li><a href="#" style="color: black;">Link 3</a></li>
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
                         </ul>
                     </div>
                     <div class="col-md">
-                        <table style="margin-right: 0px; float: right;">
+                        <table>
                             <tr>
-                                <td colspan="3" style="text-align: center;">Follow us on</td>
+                                <td colspan="3">Follow us on</td>
                             </tr>
                             <tr>
                                 <td><a href="https://www.facebook.com"><img src="img/fb.png" alt="fb logo" height="30"></a></td>

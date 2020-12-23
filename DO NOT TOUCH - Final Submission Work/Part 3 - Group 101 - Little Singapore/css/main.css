@@ -1,0 +1,221 @@
+/* Global styling */
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .container {
+    margin-top: 50px;
+  } 
+
+/* navigation bar stylings */
+
+  .navbar {
+    background: grey; 
+    top: 0px;
+    height: 100px; 
+    width: 100%; 
+    padding: 0px 20px; 
+    position: fixed; 
+    z-index: 999;
+  }
+
+  .logo img {
+    height: 90px; 
+    width: 90px; 
+    padding: 5px;
+  }
+
+  .navbar-buttons {
+    padding: 5px;
+  }
+
+/* breadcrumb styling */
+
+  .breadcrumb {
+    background-color: transparent;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .breadcrumb p {
+    padding: 0px;
+    font-size: 14px;
+  }
+
+/* footer stylings  */
+
+  .footer {
+    background: grey;
+  }
+
+  .footer .container {
+    margin-top: 20px;
+  }
+
+  .footer ul {
+    list-style: none; 
+    padding-left: 0px; 
+    margin: auto;
+  }
+
+  .footer a {
+    font-size: 14px;
+    color: black;
+  }
+
+  .footer table {
+    margin-right: 0px; 
+    text-align: center;
+    float: right;
+  }
+
+/* Index page styling */
+
+  .carousel {
+    overflow: hidden;
+    padding-top: 50px;
+  }
+
+  .quick-info {
+    text-align: center;
+  }
+
+  .quick-info img {
+    border-radius: 50%; 
+    width: 75%;
+    padding: 10px 0px;
+  }
+
+  .snippet img {
+    width: 100%;
+  }
+
+  .snippet .row:last-of-type {
+    margin-top: 40px;
+  }
+
+  .events-preview h3 {
+    text-align: center;
+  }
+
+  .events-preview h4 {
+    padding-top: 10px;
+  }
+
+  .events-preview img {
+    width: 100%;
+  }
+
+  .aboutus {
+    text-align: center;
+  }
+
+  .aboutus img {
+    width: 100%; 
+    border-radius: 25px;
+    padding-bottom: 10px;
+  }
+
+/* Attractions page styling */
+
+  .map {
+    margin-top: 0px;
+  }
+
+  .map ul {
+    padding-left: 20px;
+  }
+
+  .map img {
+    width: 100%;
+  }
+
+  .famous-rides .row {
+    margin-top: 20px;
+  }
+
+  .famous-rides img {
+    width: 100%; 
+    border-radius: 25px;
+  }
+
+  .famous-rides h4 {
+    margin: 10px 0px;
+  }
+
+  .famous-rides ul {
+    padding-left: 0px; 
+    list-style: none;
+  }
+
+/* Information page styling */
+
+  .directions {
+    margin-top: 0px;
+  }
+
+  .directions img {
+    width: 100%;
+  }
+
+  .directions ul {
+    list-style: none;
+    padding-left: 0px;
+  }
+
+  .facilities .row {
+    margin-top: 20px;
+  }
+
+  .facilities img {
+    width: 100%; 
+    border-radius: 25px;
+  }
+
+  .support {
+    margin-bottom: 60px;
+  }
+
+/* Bookings page styling */
+
+  .promo-header {
+    margin-top: 10px; 
+    text-align: center;
+  }
+
+  .coupons .col-md {
+    margin: 10px; 
+    border-style: solid; 
+    border-width: 1px;
+  }
+
+  .coupons h4 {
+    padding-top: 10px;
+  }
+  
+  h5 {
+    padding-top: 10px;
+  }
+
+  .bundles .col-md {
+    margin: 10px; 
+    border-style: solid; 
+    border-width: 1px;
+  }
+
+  button {
+    margin-bottom: 15px;
+  }
+
+  .tickets .col-md {
+    margin: 10px; 
+    border-style: solid; 
+    border-width: 1px;
+  }

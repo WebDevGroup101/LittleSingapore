@@ -28,43 +28,32 @@
     
         <title>Little Singapore - Bookings</title>
         <link rel="shortcut icon" type="image/jpg" href="img/logo.png"/>
-
-        <style>
-            .container {
-                margin-top: 50px;
-            } 
-        </style>
     </head>
 
     <body>
         <!-- navigation bar -->
-        <nav class="navbar" style="background: grey; height: 100px; width: 100%; padding: 0px 20px; position: fixed; z-index: 999;">
+        <nav class="navbar">
             <!-- logo -->
             <div class="logo">
                 <a class="navbar-brand" href="index.html">
-                    <img src="img/logo.png" alt="Logo" style="background: grey; height: 90px; width: 90px; padding: 5px;">
+                    <img src="img/logo.png" alt="Logo">
                 </a>
             </div>
             <!-- navigation buttons -->
-            <div class="navbar-buttons" style="background-color: grey; padding: 5px;">
-                <button type="button" onclick="location.href = 'attractions.html';" >Attractions</button>
-                <button type="button" onclick="location.href = 'information.html';" >Information</button>
-                <button type="button" onclick="location.href = 'booknow.html';" >Book Now</button>
+            <div class="navbar-buttons">
+                <button type="button" onclick="location.href='attractions.html';">Attractions</button>
+                <button type="button" onclick="location.href='information.html';">Information</button>
+                <button type="button" onclick="location.href='booknow.html';">Book Now</button>
             </div>
         </nav>
 
         <!-- breadcrumb under navigation bar -->
-        <div>
-            <div class="row" style="width: 100%;">
-                <ul class="breadcrumb" style="margin-top: 100px; padding: 12px 32px; list-style: none; background-color: transparent; font-size: 14px">
-                    <li><a href="index.html">Home</a></li>
-                    <li>/Bookings</li>
-                </ul>
-            </div>
+        <div class="breadcrumb">
+            <p><a href="index.html">Home</a> / Bookings</p>
         </div>
         
         <!-- big header on promotions -->
-        <div class="container promo-header" style="margin-top: 0px; text-align: center;">
+        <div class="container promo-header">
             <div class="row">
                 <div class="col-lg">
                     <h1>Current Promotions</h1>
@@ -78,18 +67,18 @@
         <!-- promotion coupon deals -->
         <div class="container coupons">
             <div class="row">
-                <div class="col-md" style="margin: 10px; border-style: solid; border-width: 1px;">
-                    <h4 style="padding-top: 10px;">Deal 1</h4>
+                <div class="col-md">
+                    <h4>Deal 1</h4>
                     <p><i>Code 1</i></p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat sed elit auctor euismod.</p>
                 </div>
-                <div class="col-md" style="margin: 10px; border-style: solid; border-width: 1px;">
-                    <h4 style="padding-top: 10px;">Deal 2</h4>
+                <div class="col-md">
+                    <h4>Deal 2</h4>
                     <p><i>Code 2</i></p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat sed elit auctor euismod.</p>
                 </div>
-                <div class="col-md" style="margin: 10px; border-style: solid; border-width: 1px;">
-                    <h4 style="padding-top: 10px;">Deal 3</h4>
+                <div class="col-md">
+                    <h4>Deal 3</h4>
                     <p><i>Code 3</i></p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat sed elit auctor euismod.</p>
                 </div>
@@ -100,17 +89,17 @@
         <div class="container bundles">
             <h3>Bundles</h3>
             <div class="row">
-                <div class="col-md" style="margin: 10px; border-style: solid; border-width: 1px;">
-                    <h5 style="padding-top: 10px;">Bundle 1</h5>
+                <div class="col-md">
+                    <h5>Bundle 1</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <p>Suspendisse malesuada mattis aliquet. Sed porta luctus lectus, ut cursus nulla interdum eget.</p>
-                    <button style="margin-bottom: 15px;">Add to cart</button>
+                    <button>Add to cart</button>
                 </div>
-                <div class="col-md" style="margin: 10px; border-style: solid; border-width: 1px;">
-                    <h5 style="padding-top: 10px;">Bundle 2</h5>
+                <div class="col-md">
+                    <h5>Bundle 2</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <p>Suspendisse malesuada mattis aliquet. Sed porta luctus lectus, ut cursus nulla interdum eget.</p>
-                    <button style="margin-bottom: 15px;">Add to cart</button>
+                    <button>Add to cart</button>
                 </div>
             </div>
         </div>
@@ -118,43 +107,43 @@
         <div class="container tickets">
             <h3>Tickets</h3>
             <div class="row">
-                <div class="col-md" style="margin: 10px; border-style: solid; border-width: 1px;">
-                    <h5 style="padding-top: 10px;">1 Day Pass</h5>
+                <div class="col-md">
+                    <h5>1 Day Pass</h5>
                     <p>$50</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu tortor metus.</p>
-                    <button style="margin-bottom: 15px;">Add to cart</button>
+                    <button>Add to cart</button>
                 </div>
-                <div class="col-md" style="margin: 10px; border-style: solid; border-width: 1px;">
-                    <h5 style="padding-top: 10px;">1 Day Pass + Fast Pass</h5>
+                <div class="col-md">
+                    <h5>1 Day Pass + Fast Pass</h5>
                     <p>$95</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu tortor metus.</p>
-                    <button style="margin-bottom: 15px;">Add to cart</button>
+                    <button>Add to cart</button>
                 </div>
-                <div class="col-md" style="margin: 10px; border-style: solid; border-width: 1px;">
-                    <h5 style="padding-top: 10px;">Annual Pass</h5>
+                <div class="col-md">
+                    <h5>Annual Pass</h5>
                     <p>$250</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu tortor metus.</p>
-                    <button style="margin-bottom: 15px;">Add to cart</button>
+                    <button>Add to cart</button>
                 </div>
             </div>
         </div>
 
         <!-- footer -->
-        <div class="footer" style="background: grey;">
+        <div class="footer">
             <div class="container">
                 <div class="row">                
                     <div class="col-md">
-                        <ul style="list-style: none; padding-left: 0px; margin: auto;">
+                        <ul>
                             <li>Footer Links</li>
-                            <li><a href="#" style="color: black;">Link 1</a></li>
-                            <li><a href="#" style="color: black;">Link 2</a></li>
-                            <li><a href="#" style="color: black;">Link 3</a></li>
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
                         </ul>
                     </div>
                     <div class="col-md">
-                        <table style="margin-right: 0px; float: right;">
+                        <table>
                             <tr>
-                                <td colspan="3" style="text-align: center;">Follow us on</td>
+                                <td colspan="3">Follow us on</td>
                             </tr>
                             <tr>
                                 <td><a href="https://www.facebook.com"><img src="img/fb.png" alt="fb logo" height="30"></a></td>

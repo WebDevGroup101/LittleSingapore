@@ -28,51 +28,40 @@
     
         <title>Little Singapore - Home</title>
         <link rel="shortcut icon" type="image/jpg" href="img/logo.png"/>
-
-        <style>
-            .container {
-                margin-top: 50px;
-            } 
-        </style>
     </head>
 
     <body>
         <!-- navigation bar -->
-        <nav class="navbar" style="background: grey; height: 100px; width: 100%; padding: 0px 20px; position: fixed; z-index: 999;">
+        <nav class="navbar">
             <!-- logo -->
             <div class="logo">
                 <a class="navbar-brand" href="index.html">
-                    <img src="img/logo.png" alt="Logo" style="background: grey; height: 90px; width: 90px; padding: 5px;">
+                    <img src="img/logo.png" alt="Logo">
                 </a>
             </div>
             <!-- navigation buttons -->
-            <div class="navbar-buttons" style="background-color: grey; padding: 5px;">
-                <button type="button" onclick="location.href = 'attractions.html';" >Attractions</button>
-                <button type="button" onclick="location.href = 'information.html';" >Information</button>
-                <button type="button" onclick="location.href = 'booknow.html';" >Book Now</button>
+            <div class="navbar-buttons">
+                <button type="button" onclick="location.href='attractions.html';">Attractions</button>
+                <button type="button" onclick="location.href='information.html';">Information</button>
+                <button type="button" onclick="location.href='booknow.html';">Book Now</button>
             </div>
         </nav>
 
         <!-- breadcrumb under navigation bar -->
-        <div>
-            <div class="row" style="width: 100%;">
-                <ul class="breadcrumb" style="margin-top: 100px; padding: 12px 32px; list-style: none; background-color: transparent; font-size: 14px">
-                    <li><a href="index.html">Home</a></li>
-                    <li>/Attractions</li>
-                </ul>
-            </div>
+        <div class="breadcrumb">
+            <p><a href="index.html">Home</a> / Attractions</p>
         </div>
         
         <!-- park map with legends -->
-        <div class="container map" style="margin-top: 0px;">
+        <div class="container map">
             <h3>Park Map</h3>
             <div class="row">
                 <div class="col-md-8">
-                    <img src="img/map.png" alt="Park Map" style="width: 100%;">
+                    <img src="img/map.png" alt="Park map">
                 </div>
                 <div class="map-legends col-4">
                     <h4>Map Legend</h4>
-                    <ul style="padding-left: 20px;">
+                    <ul>
                         <li>Lorem ipsum dolor sit amet</li>
                         <li>Phasellus at urna eleifend</li>
                         <li>Vivamus mattis ligula vel mauris aliquet</li>
@@ -86,14 +75,14 @@
         <!-- attractions and rides full information -->   
         <div class="container famous-rides">
             <h3>Rides That Made Us Famous</h3>
-            <div class="row" style="margin-top: 20px;">
+            <div class="row">
                 <div class="col-md">
-                    <img src="img/3by2.png" alt="Ride" style="width: 100%; border-radius: 25px;">
-                    <h4 style="margin: 10px 0px;">Merlion</h4>
+                    <img src="img/3by2.png" alt="Ride">
+                    <h4>Merlion</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
                         venenatis
                         velit nec neque ultricies, eget elementum magna tristique.</p>
-                    <ul style="padding-left: 0px; list-style: none;">
+                    <ul>
                         <li><b>Requirements</b></li>
                         <li>Integer nec magna a dui</li>
                         <li>Ut sed odio ac dolor</li>
@@ -101,12 +90,12 @@
                     </ul>        
                 </div>
                 <div class="col-md">
-                    <img src="img/3by2.png" alt="Ride" style="width: 100%; border-radius: 25px;">
-                    <h4 style="margin: 10px 0px;">99 Bends</h4>
+                    <img src="img/3by2.png" alt="Ride">
+                    <h4>99 Bends</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
                         venenatis
                         velit nec neque ultricies, eget elementum magna tristique.</p>
-                    <ul style="padding-left: 0px; list-style: none;">
+                    <ul>
                         <li><b>Requirements</b></li>
                         <li>Integer nec magna a dui</li>
                         <li>Ut sed odio ac dolor</li>
@@ -114,14 +103,14 @@
                     </ul>     
                 </div>
             </div>
-            <div class="row" style="margin-top: 20px;">
+            <div class="row">
                 <div class="col-md">
-                    <img src="img/3by2.png" alt="Ride" style="width: 100%; border-radius: 25px;">
-                    <h4 style="margin: 10px 0px;">Old Changi Hospital</h4>
+                    <img src="img/3by2.png" alt="Ride">
+                    <h4>Old Changi Hospital</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
                         venenatis
                         velit nec neque ultricies, eget elementum magna tristique.</p>
-                    <ul style="padding-left: 0px; list-style: none;">
+                    <ul>
                         <li><b>Requirements</b></li>
                         <li>Integer nec magna a dui</li>
                         <li>Ut sed odio ac dolor</li>
@@ -129,12 +118,12 @@
                     </ul>   
                 </div>
                 <div class="col-md">
-                    <img src="img/3by2.png" alt="Ride" style="width: 100%; border-radius: 25px;">
-                    <h4 style="margin: 10px 0px;">Otter Express</h4>
+                    <img src="img/3by2.png" alt="Ride">
+                    <h4>Otter Express</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
                     venenatis
                     velit nec neque ultricies, eget elementum magna tristique.</p>
-                    <ul style="padding-left: 0px; list-style: none;">
+                    <ul>
                         <li><b>Requirements</b></li>
                         <li>Integer nec magna a dui</li>
                         <li>Ut sed odio ac dolor</li>
@@ -142,14 +131,14 @@
                     </ul>   
                 </div>
             </div>
-            <div class="row" style="margin-top: 20px;">
+            <div class="row">
                 <div class="col-md">
-                    <img src="img/3by2.png" alt="Ride" style="width: 100%; border-radius: 25px;">
-                    <h4 style="margin: 10px 0px;">Kite Flyer, High Flyer</h4>
+                    <img src="img/3by2.png" alt="Ride">
+                    <h4>Kite Flyer, High Flyer</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
                         venenatis
                         velit nec neque ultricies, eget elementum magna tristique.</p>
-                    <ul style="padding-left: 0px; list-style: none;">
+                    <ul>
                         <li><b>Requirements</b></li>
                         <li>Integer nec magna a dui</li>
                         <li>Ut sed odio ac dolor</li>
@@ -157,12 +146,12 @@
                     </ul>   
                 </div>
                 <div class="col-md">
-                    <img src="img/3by2.png" alt="Ride" style="width: 100%; border-radius: 25px;">
-                    <h4 style="margin: 10px 0px;">Kopitiam Spinners</h4>
+                    <img src="img/3by2.png" alt="Ride" >
+                    <h4>Kopitiam Spinners</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
                         venenatis
                         velit nec neque ultricies, eget elementum magna tristique.</p>
-                    <ul style="padding-left: 0px; list-style: none;">
+                    <ul>
                         <li><b>Requirements</b></li>
                         <li>Integer nec magna a dui</li>
                         <li>Ut sed odio ac dolor</li>
@@ -173,21 +162,21 @@
         </div>
 
         <!-- footer -->
-        <div class="footer" style="background: grey;">
+        <div class="footer">
             <div class="container">
                 <div class="row">                
                     <div class="col-md">
-                        <ul style="list-style: none; padding-left: 0px; margin: auto;">
+                        <ul>
                             <li>Footer Links</li>
-                            <li><a href="#" style="color: black;">Link 1</a></li>
-                            <li><a href="#" style="color: black;">Link 2</a></li>
-                            <li><a href="#" style="color: black;">Link 3</a></li>
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
                         </ul>
                     </div>
                     <div class="col-md">
-                        <table style="margin-right: 0px; float: right;">
+                        <table>
                             <tr>
-                                <td colspan="3" style="text-align: center;">Follow us on</td>
+                                <td colspan="3">Follow us on</td>
                             </tr>
                             <tr>
                                 <td><a href="https://www.facebook.com"><img src="img/fb.png" alt="fb logo" height="30"></a></td>
