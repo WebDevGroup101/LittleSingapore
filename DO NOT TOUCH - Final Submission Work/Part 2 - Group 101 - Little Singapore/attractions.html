@@ -38,7 +38,7 @@
 
     <body>
         <!-- navigation bar -->
-        <nav class="navbar" style="background: grey; height: 100px; padding: 0px 20px;">
+        <nav class="navbar" style="background: grey; height: 100px; width: 100%; padding: 0px 20px; position: fixed; z-index: 999;">
             <!-- logo -->
             <div class="logo">
                 <a class="navbar-brand" href="index.html">
@@ -54,13 +54,16 @@
         </nav>
 
         <!-- breadcrumb under navigation bar -->
-        <ul class="breadcrumb" style="padding: 10px, 10px; list-style: none; background-color: transparent; font-size: 14px">
-            <li><a href="index.html">Home</a></li>
-            <li>/Attractions</li>
-        </ul>
+        <div>
+            <div class="row" style="width: 100%;">
+                <ul class="breadcrumb" style="margin-top: 100px; padding: 12px 32px; list-style: none; background-color: transparent; font-size: 14px">
+                    <li><a href="index.html">Home</a></li>
+                    <li>/Attractions</li>
+                </ul>
+            </div>
+        </div>
         
         <!-- park map with legends -->
-      
         <div class="container map" style="margin-top: 0px;">
             <h3>Park Map</h3>
             <div class="row">
