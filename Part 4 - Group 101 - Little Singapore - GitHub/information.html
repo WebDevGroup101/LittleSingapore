@@ -26,7 +26,7 @@
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
     
-        <title>Little Singapore - Bookings</title>
+        <title>Little Singapore - Information</title>
         <link rel="shortcut icon" type="image/jpg" href="img/logo.png"/>
     </head>
 
@@ -61,296 +61,120 @@
         <!-- breadcrumb under navigation bar -->
         <ul class="breadcrumb">
             <li><a href="index.html">Home</a></li>
-            <li>Bookings</li>
+            <li>Information</li>
         </ul>
 
-        <!-- cart summary button -->
-        <nav class="dropdown-cartsummary">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Cart Summary
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Item 1</a>
-                <a class="dropdown-item" href="#">Item 2</a>
-                <a class="dropdown-item" href="#">Total</a>
+        <!-- information on how to get to the park -->
+        <div class="container directions">
+            <h3>Getting Here</h3>
+            <div class="row">
+                <div class="col-lg-8">
+                    <img src="img/map.png" alt="Directions">
+                </div>
+                <div class="col-md">
+                    <div>
+                        <h4>Public Transport</h4>
+                        <ul>
+                            <li>Buses to take: 11, 369, 859</li>
+                            <li>Nearest MRT: Seacove (NS 12)</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Car</h4>
+                        <ul>
+                            <li><strong>Carpark A, Park Side Lane</strong></li>
+                            <li>Parking Rates:</li>
+                            <li>Weekdays - $2/hr</li>
+                            <li>Weekends - $2/hr</li>
+                        </ul>
+                        <ul>
+                            <li><strong>Carpark B, Sea Fun Drive</strong></li>
+                            <li>Parking Rates:</li>
+                            <li>Weekdays - $2/hr</li>
+                            <li>Weekends - $2/hr</li>
+                        </ul>
+                        <ul>
+                            <li><strong>Carpark C, Teck Whye Lane</strong></li>
+                            <li>Parking Rates:</li>
+                            <li>Weekdays - $0.50/hr</li>
+                            <li>Weekends - $0.50/hr</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </nav>
+        </div>
+
+        <div class="container facilities">
+            <h3>Amenities & Facilities</h3>
+            <div class="row">
+                <div class="col-md">
+                    <h4>Lim's Burger Joint</h4>
+                    <img src="img/facilities/burgerjoint.jpeg" alt="Lim's Burger Joint">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo elementum sem, at lobortis leo rhoncus in.</p>
+                </div>
+                <div class="col-md">
+                    <h4>Atas Bagus</h4>
+                    <img src="img/facilities/restaurant.jpeg" alt="Atas Bagus">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo elementum sem, at lobortis leo rhoncus in.</p>
+                </div>
+                <div class="col-md">
+                    <h4>Ninja Van</h4>
+                    <img src="img/facilities/ninjavan.jpeg" alt="Ninja Van">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo elementum sem, at lobortis leo rhoncus in.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <h4>Merchandise Store</h4>
+                    <img src="img/facilities/merch.jpeg" alt="Merchandise store">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo elementum sem, at lobortis leo rhoncus in.</p>
+                </div>
+                <div class="col-md">
+                    <h4>ATM</h4>
+                    <img src="img/facilities/atm.jpeg" alt="ATMs">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo elementum sem, at lobortis leo rhoncus in.</p>
+                </div>
+                <div class="col-md">
+                    <h4>Medical Centre</h4>
+                    <img src="img/facilities/merch.jpeg" alt="Medical centre">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo elementum sem, at lobortis leo rhoncus in.</p>
+                </div>
+                <!-- <div class="col-md">
+                    <h4>Nursing Room</h4>
+                    <img src="img/3by2.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo elementum sem, at lobortis leo rhoncus in.</p>
+                </div> -->
+            </div>
+        </div>
         
-        <!-- big header on promotions -->
-        <div class="container" style="text-align: center;">
-            <h1>Current Promotions</h1>
-            <p>Don't miss out on our amazing holiday specials and limited-time deals! Awesome savings that the
-                whole family can enjoy!</p>
-            <hr>
-            <p>Have a look down below at our special coupons!</p>
-        </div>
-
-        <!-- promotion coupon deals -->
-        <div class="promotions container">
+        <div class="container support">
+            <h3>Support</h3>
             <div class="row">
                 <div class="col-md">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">25% Off at Checkout</h5>
-                            <h6 class="card-subtitle mb-2 text-muted"><i>LILSG25OFF</i></h6>
-                            <p class="card-text">Minimum cart value of $200 Valid Until 10 January 2021 <br><br> Terms and
-                                Conditions Apply</p>
-                            <!-- <a href="#" class="card-link">Copy Code</a> -->
-                            <a href="#" class="card-link">Go to Cart</a>
-                        </div>
-                    </div>
+                    <h4>Operation Hours</h4>
+                    <table class="opdata">
+                        <tr><th>Day</th><th>Operating Hours</th></tr>
+                        <tr><td>Monday - Thursday</td><td>9 am - 6pm</td></tr>
+                        <tr><td>Friday - Sunday</td><td>9 am - 9pm</td></tr>
+                        <tr><td>Park Closures</td><td>None this week</td></tr>
+                    </table>
                 </div>
                 <div class="col-md">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">2 For 1 Child Ticket</h5>
-                            <h6 class="card-subtitle mb-2 text-muted"><i>CHILD2FOR1</i></h6>
-                            <p class="card-text">Minimum cart value of $200 Valid Until 10 January 2021 <br><br> Terms and
-                                Conditions Apply</p>
-                            <!-- <a href="#" class="card-link">Copy Code</a> -->
-                            <a href="#" class="card-link">Go to Cart</a>
-                        </div>
-                    </div>
+                    <h4>Enquires</h4>
+                    <p>Email: enquires@littlesg.com<br/>
+                        Tel: +65-12345678</p>
                 </div>
                 <div class="col-md">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">50% Off FastPass</h5>
-                            <h6 class="card-subtitle mb-2 text-muted"><i>FAST50OFF</i></h6>
-                            <p class="card-text">Minimum cart value of $75 Valid Until 10 January 2021 <br><br> Terms and
-                                Conditions Apply</p>
-                            <!-- <a href="#" class="card-link">Copy Code</a> -->
-                            <a href="#" class="card-link">Go to Cart</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- bundles  -->
-        <div class="container bundles">
-            <h3>Bundles</h3>
-            <div class="row">
-                <div class="col-md">
-                    <h5>Bundle 1</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <p>Suspendisse malesuada mattis aliquet. Sed porta luctus lectus, ut cursus nulla interdum eget.</p>
-                    <button>Add to cart</button>
-                </div>
-                <div class="col-md">
-                    <h5>Bundle 2</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <p>Suspendisse malesuada mattis aliquet. Sed porta luctus lectus, ut cursus nulla interdum eget.</p>
-                    <button>Add to cart</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- <div class="container tickets">
-            <h3>Tickets</h3>
-            <div class="row">
-                <div class="col-md">
-                    <h5>1 Day Pass</h5>
-                    <p>$50</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu tortor metus.</p>
-                    <button>Add to cart</button>
-                </div>
-                <div class="col-md">
-                    <h5>1 Day Pass + Fast Pass</h5>
-                    <p>$95</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu tortor metus.</p>
-                    <button>Add to cart</button>
-                </div>
-                <div class="col-md">
-                    <h5>Annual Pass</h5>
-                    <p>$250</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu tortor metus.</p>
-                    <button>Add to cart</button>
-                </div>
-            </div>
-        </div> -->
-
-        <!-- tickets and passes information -->
-        <div class="container tickets">
-            <div class="row">
-                <div class="col-md">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body title">
-                            <h4>1-Day Theme Park</h4>
-                        </div>
-                        <div class="card-body price">
-                            <div class="row" style="text-align: center;">
-                                <div class="col-md">
-                                    <p>Adult</p>
-                                    <p2>$49.99SGD</p2>
-                                </div>
-                                <div class="col-md">
-                                    <p>Child</p>
-                                    <p2>$29.99SGD</p2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body strip">
-                            Most Popular
-                        </div>
-                        <img class="card-img-top" src="img/ticket.jpeg" alt="Card image cap">
-                        <div class="card-body strip">
-                            Theme Park
-                        </div>
-                        <div class="card-body content">
-                            <p class="card-text">Same Price as Single-Park Annual Pass for MyKad
-                            </p>
-                            <hr>
-                            <ul>
-                                <li>1-Day access to Theme Park</li>
-                                <li>FREE for Children under 3 years</li>
-                            </ul>
-                        </div>
-                        <div class="dropdown col-md">
-                            <button class="dropbtn">Buy Ticket</button>
-                            <div class="dropdown-content">
-                                <a href="#">Adult Ticket</a>
-                                <div class="container quantity">
-                                    <form class="quantity-selector" action="">
-                                        <label for="quantity">Quantity:</label>
-                                        <input type="number" id="quantity" name="quantity" min="1" max="19">
-                                        <input type="submit">
-                                    </form>
-                                </div>
-                                <a href="#">Child Ticket</a>
-                                <div class="container quantity">
-                                    <form action="">
-                                        <label for="quantity">Quantity:</label>
-                                        <input type="number" id="quantity" name="quantity" min="1" max="19">
-                                        <input type="submit">
-                                    </form>
-                                </div>
-                                <a href="#" class="dropdown-checkout">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body title">
-                            <h4>1-Day Theme Park</h4>
-                        </div>
-                        <div class="card-body price">
-                            <div class="row" style="text-align: center;">
-                                <div class="col-md">
-                                    <p>Adult</p>
-                                    <p2>$49.99SGD</p2>
-                                </div>
-                                <div class="col-md">
-                                    <p>Child</p>
-                                    <p2>$29.99SGD</p2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body strip">
-                            Express
-                        </div>
-                        <img class="card-img-top" src="img/ticket.jpeg" alt="Card image cap">
-                        <div class="card-body strip">
-                            Theme Park
-                        </div>
-                        <div class="card-body content">
-                            <p class="card-text">Same Price as Single-Park Annual Pass for MyKad
-                            </p>
-                            <hr>
-                            <ul>
-                                <li>1-Day access to Theme Park</li>
-                                <li>FREE for Children under 3 years</li>
-                            </ul>
-                        </div>
-                        <div class="dropdown col-md">
-                            <button class="dropbtn">Buy Ticket</button>
-                            <div class="dropdown-content">
-                                <a href="#">Adult Ticket</a>
-                                <div class="container quantity">
-                                    <form class="quantity-selector" action="">
-                                        <label for="quantity">Quantity:</label>
-                                        <input type="number" id="quantity" name="quantity" min="1" max="19">
-                                        <input type="submit">
-                                    </form>
-                                </div>
-                                <a href="#">Child Ticket</a>
-                                <div class="container quantity">
-                                    <form action="">
-                                        <label for="quantity">Quantity:</label>
-                                        <input type="number" id="quantity" name="quantity" min="1" max="19">
-                                        <input type="submit">
-                                    </form>
-                                </div>
-                                <a href="#" class="dropdown-checkout">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body title">
-                            <h4>1-Day Theme Park</h4>
-                        </div>
-                        <div class="card-body price">
-                            <div class="row" style="text-align: center;">
-                                <div class="col-md">
-                                    <p>Adult</p>
-                                    <p2>$49.99SGD</p2>
-                                </div>
-                                <div class="col-md">
-                                    <p>Child</p>
-                                    <p2>$29.99SGD</p2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body strip">
-                            Fun All Year Round
-                        </div>
-                        <img class="card-img-top" src="img/ticket.jpeg" alt="Card image cap">
-                        <div class="card-body strip">
-                            Theme Park
-                        </div>
-                        <div class="card-body content">
-                            <p class="card-text">Same Price as Single-Park Annual Pass for MyKad
-                            </p>
-                            <hr>
-                            <ul>
-                                <li>1-Day access to Theme Park</li>
-                                <li>FREE for Children under 3 years</li>
-                            </ul>
-                        </div>
-                        <div class="dropdown col-md">
-                            <button class="dropbtn">Buy Ticket</button>
-                            <div class="dropdown-content">
-                                <a href="#">Adult Ticket</a>
-                                <div class="container quantity">
-                                    <form class="quantity-selector" action="">
-                                        <label for="quantity">Quantity:</label>
-                                        <input type="number" id="quantity" name="quantity" min="1" max="19">
-                                        <input type="submit">
-                                    </form>
-                                </div>
-                                <a href="#">Child Ticket</a>
-                                <div class="container quantity">
-                                    <form action="">
-                                        <label for="quantity">Quantity:</label>
-                                        <input type="number" id="quantity" name="quantity" min="1" max="19">
-                                        <input type="submit">
-                                    </form>
-                                </div>
-                                <a href="#" class="dropdown-checkout">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
+                    <h4>Feedback</h4>
+                    <p>Email: feeback@littlesg.com <br/>
+                        Tel: +65-12345678</p>
                 </div>
             </div>
         </div>
 
         <!-- scroll to top button -->
         <button onclick="topFunction()" id="myBtn" title="Go to top">
-            <img src="img/scroll.webp" style="width: 50px; padding: 0px;">
+            <img src="img/scroll.webp" alt="Scroll to top icon" style="width: 50px; padding: 0px;">
         </button>
 
         <!-- footer -->
@@ -754,12 +578,12 @@
                     <div class="col-6 footer-right">
                         <table class="socials">
                             <tr>
-                                <td colspan="3" style="text-align: center;">Follow us on</th>
+                                <td colspan="3" style="text-align: center;">Follow us on</td>
                             </tr>
                             <tr>
-                                <td><a href="https://www.facebook.com"><img src="img/fb.png" height="30px"></a></td>
-                                <td><a href="https://twitter.com"><img src="img/tw.png" height="33px"></a></td>
-                                <td><a href="https://www.instagram.com"><img src="img/in.png" height="30px"></a></td>
+                                <td><a href="https://www.facebook.com"><img src="img/fb.png" alt="Facebook link"></a></td>
+                                <td><a href="https://twitter.com"><img src="img/tw.png" alt="Twitter link"></a></td>
+                                <td><a href="https://www.instagram.com"><img src="img/in.png" alt="Instagram link"></a></td>
                             </tr>
                         </table>
                     </div>

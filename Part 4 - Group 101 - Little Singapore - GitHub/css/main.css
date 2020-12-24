@@ -190,7 +190,11 @@ ul.breadcrumb {
     
     .privacypolicy {
         padding: 25px;
-    }  
+    }
+
+    .footer img {
+        height: 33px;
+    }
 
 /* Index page styling */
 
