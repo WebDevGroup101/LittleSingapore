@@ -1,4 +1,4 @@
-/* Global styling */
+/* global styling */
 
     body {
         font-family: 'Poppins', sans-serif;
@@ -337,13 +337,18 @@ ul.breadcrumb {
         margin-bottom: 60px;
     }
 
+    .opdata td {
+        padding-right: 30px;
+    }
+
 /* Bookings page styling */
     
-    .dropdown {
+    .dropdown-cartsummary {
         position: fixed;
         top: 100px;
         right: 0px;
         z-index: 9999;
+        opacity: 90%;
     }
 
     .btn {
@@ -398,16 +403,6 @@ ul.breadcrumb {
         margin-bottom: 15px;
     }
 
-    /* .tickets .col-md {
-        margin: 10px; 
-        border-style: solid; 
-        border-width: 1px;
-    }
-
-    .tickets .row {
-        margin-bottom: 60px;
-    } */
-
     .tickets .dropbtn {
         background-color: #F172A1;
         color: white;
@@ -423,7 +418,7 @@ ul.breadcrumb {
         display: inline-block;
         padding: 0px;
     }
-    
+      
     .tickets .dropdown-content {
         display: none;
         position: relative;
@@ -433,26 +428,86 @@ ul.breadcrumb {
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1;
     }
-    
+      
     .tickets .dropdown-content a {
         color: black;
         padding: 12px 12px;
         text-decoration: none;
         display: block;
     }
-    
+      
     .tickets .dropdown-checkout {
         margin: 30px 0px 0px;
     }
-    
+      
     .tickets .dropdown-content a:hover {
         background-color: #F172A1;
     }
-    
+      
     .tickets .dropdown:hover .dropdown-content {
         display: block;
     }
-    
+      
     .tickets .dropdown:hover .dropbtn {
         background-color: #9F3D91;
+    }
+    
+    .quantity {
+        margin: 0px;
+        background-color: white;
+    }
+      
+    .tickets .title {
+        background-color: #B39BC8;
+        text-align: center;
+        color: white;
+    }
+      
+    .tickets .price {
+        text-align: center;
+    }
+      
+    .tickets .price p {
+        font-size: 12px;
+        margin: -0.1rem;
+    }
+      
+    .tickets .price p2 {
+        font-size: 20px;
+    }
+      
+    .tickets .strip {
+        background-color: #F172A1;
+        text-align: center;
+        color: white;
+        height: auto;
+        font-size: 14px;
+        padding: 1px;
+    }
+      
+    .tickets .content {
+        text-align: center;
+    }
+      
+    .tickets .content ul {
+        text-align: center;
+    } 
+
+    .tickets ul {
+        list-style: none;
+        padding-left: 0px;
+    }
+
+    .tickets .btn {
+        background: #F172A1;
+        border: 0px;
+    }
+      
+    .tickets .btn:hover {
+        background: #9F3D91;
+        border: 0px;
+    } 
+
+    .tickets .dropbtn {
+        margin-top: 0px;
     }
