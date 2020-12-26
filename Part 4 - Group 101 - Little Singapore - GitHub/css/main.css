@@ -414,11 +414,11 @@ ul.breadcrumb {
     }
 
     .tickets .card {
-        margin: 20px auto;
+        margin-bottom: 40px;
     }
 
     .tickets .row {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 
     .tickets .dropbtn {
