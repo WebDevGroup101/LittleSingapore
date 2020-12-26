@@ -3,7 +3,7 @@
     body {
         font-family: 'Poppins', sans-serif;
         display: block;
-        background: transparent;
+        background: #F0EBF4;
     }
 
     html {
@@ -128,7 +128,7 @@ ul.breadcrumb {
         right: 30px;
         z-index: 99;
         border: none;
-        background-color: white;
+        background-color: #F0EBF4;
         cursor: pointer;
         border-radius: 50%;
         padding: 0%;
@@ -209,13 +209,18 @@ ul.breadcrumb {
         margin-bottom: 0px;
     }
 
+    .quick-info .row {
+        height: 92%;
+    }
+
     .quick-info .col-sm {
         padding: 10px;
+        height: 100%;
         border-style: dotted;
         border-width: 1px;
         border-radius: 5px;
         border-color: #E64398;
-        margin: 10px;
+        margin: 15px;
     }
 
     .quick-info img {
@@ -279,6 +284,7 @@ ul.breadcrumb {
 
     .map img {
         width: 100%;
+        margin-bottom: 20px;
     }
 
     .famous-rides {
@@ -405,6 +411,14 @@ ul.breadcrumb {
 
     button {
         margin-bottom: 15px;
+    }
+
+    .tickets .card {
+        margin: 20px auto;
+    }
+
+    .tickets .row {
+        margin-bottom: 50px;
     }
 
     .tickets .dropbtn {
