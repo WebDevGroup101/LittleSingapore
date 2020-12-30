@@ -1,488 +1,531 @@
 /* global styling */
 
-body {
-  font-family: 'Poppins', sans-serif;
-  background: #F0EBF4;
-}
+    body {
+        font-family: 'Poppins', sans-serif;
+        display: block;
+        background: #F0EBF4;
+    }
 
-.container {
-  margin-bottom: 60px;
-  background-color: #F0EBF4;
-  /* #9F3D91 */
-}
+    html {
+        scroll-behavior: smooth;
+    }
 
-html {
-  scroll-behavior: smooth;
-}
+    .container {
+        margin-top: 50px;
+    } 
 
-ul {
-  list-style: none;
-  padding-left: 0px;
-}
+    a {
+        color: #E64398;
+    }
 
-a {
-  color: black;
-}
+/* navigation bar stylings */
 
-a:hover {
-  color: #E64398;
-}
+    .nav {
+        height: 100px;
+        width: 100%;
+        position: relative;
+        font-family: 'Poppins', sans-serif;
+        z-index: 99999;
+        color: black;
+    }
 
-.btn {
-  background: #F172A1;
-  border: 0px;
-}
+    .navbar {
+        background: #F172A1;
+        padding: 0px;
+    }
 
-.btn:hover {
-  background: #9F3D91;
-  border: 0px;
-}
+    @media (max-width: 991px) {
+        .navbar-nav>li {
+          border-radius: 0px;
+          width: 100%;
+          margin-left: 0px;
+        }
+    }
 
-/* Bootstrap Navbar Styling */
+    .nav-item {
+        width: 170px;
+        font-size: larger;
+        text-align: center;
+        background: white;
+        border-radius: 25px;
+        margin: 0px 15px;
+    }
 
-.nav {
-  height: 100px;
-  width: 100%;
-  position: relative;
-  font-family: 'Poppins', sans-serif;
-  z-index: 99999;
-  color: black;
-}
+    .nav-item a:hover {
+        color: #E64398;
+    }
 
-.navbar {
-  background: #F172A1;
-  padding: 0px;
-}
+    .nav-item:last-child {
+        background: #A1C3D1;
+    }
 
-.nav-item {
-  width: 170px;
-  font-size: larger;
-  text-align: center;
-  background: white;
-  border-radius: 25px;
-  margin: auto;
-}
+    /* navbar buttons text */
+    .navbar-light .navbar-nav .nav-link {
+        color: black;
+    }
 
-.nav-item a:hover {
-  color: #E64398;
-}
+    .navbar-toggler {
+        margin: 0px 0px 0px 20px;
+    }
 
-.nav-item:last-child {
-  background: #A1C3D1;
-}
+    .navbar-brand {
+        padding-left: 15px;
+        justify-content: center;
+    }
 
-/* navbar buttons text */
-
-.navbar-light .navbar-nav .nav-link {
-  color: black;
-}
-
-.navbar-toggler {
-  margin-left: 15px;
-}
-
-.navbar-brand {
-  padding-left: 15px;
-  justify-content: center;
-}
-
-#logo {
-  height: 90px;
-  width: 90px;
-  padding: 5px;
-}
+    #logo {
+        height: 90px;
+        width: 90px;
+        padding: 5px;
+    }
 
 /* breadcrumb styling */
 
 ul.breadcrumb {
-  padding: 10px 10px;
-  list-style: none;
-  position: relative;
-  background-color: transparent;
-  top: 0;
-  width: 100%;
-  margin-top: 5px;
-}
-
-/* Display list items side by side */
-
-ul.breadcrumb li {
-  display: inline;
-  font-size: 14px;
-}
-
-/* Add a slash symbol (/) before/behind each list item */
-
-ul.breadcrumb li+li:before {
-  padding: 4px;
-  color: black;
-  content: ">\00a0";
-}
-
-/* Add a color to all links inside the list */
-
-ul.breadcrumb li a {
-  color: #E64398;
-  text-decoration: none;
-}
-
-/* Add a color on mouse-over */
-
-ul.breadcrumb li a:hover {
-  color: #01447e;
-  text-decoration: underline;
-}
-
-/* footer styling  */
-
-.footer {
-  background: #F172A1;
-  padding: 10px 0px 10px 0px;
-  width: 100%;
-  position: relative;
-  margin-bottom: 0px;
-}
-
-.footer .container {
-  margin-bottom: 0px;
-  background: #F172A1;
-}
-
-.footer .row {
-  margin-top: 0px;
-  padding: 0px, 0px, 0px, 0px;
-  background: none;
-}
-
-.footer-links {
-  font-size: small;
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 0;
-}
-
-.footer-left {
-  vertical-align: middle;
-}
-
-.footer-right {
-  vertical-align: middle;
-}
-
-.socials {
-  float: right;
-  margin-top: 11px;
-}
-
-table.socials {
-  width: 150px;
-  text-align: center;
-}
-
-.privacypolicy {
-  padding: 25px;
-}
-
-/* homepage styling */
-
-.quick-info {
-  text-align: center;
-  margin-bottom: 0px;
-}
-
-.quick-info .container {
-  display: inline;
-  float: left;
-}
-
-.quick-info .col-sm {
-  padding: 20px;
-  margin-bottom: 5px;
-}
-
-.quick-info h4 {
-  height: 8%;
-}
-
-.quick-info img {
-  background: white;
-  width: 80%;
-  border-radius: 50%;
-  margin: 10px 0px 25px 0px;
-}
-
-.quick-info a {
-  font-weight: bold;
-}
-
-.snippet.container {
-  margin-top: 45px;
-}
-
-.snippet img {
-  width: 100%;
-  border-radius: 25px;
-  margin-bottom: 25px;
-}
-
-.snippet .row:nth-of-type(n+2) {
-  margin-top: 25px;
-}
-
-.aboutus {
-  text-align: center;
-}
-
-.aboutus img {
-  width: 100%;
-  margin-top: 10px;
-  border-radius: 25px;
-}
-
-.aboutus p {
-  margin-top: 25px;
-}
-
-/* whats new page styling */
-
-.events h3 {
-  margin-bottom: 20px;
-}
-
-.jumbotron {
-  background-color: #F0EBF4;
-  margin-top: 35px;
-  margin-bottom: -4rem;
-  text-align: center
-}
-
-.events ul {
-  list-style: circle;
-  padding-left: 20px;
-}
-
-/* attractions page styling */
-
-.map img {
-  width: 100%;
-  padding-left: 0px;
-}
-
-.map-legends ul {
-  padding-left: 20px;
-  list-style: unset;
-}
-
-.famous-rides img {
-  border-radius: 25px;
-  width: 100%;
-}
-
-.famous-rides h4 {
-  margin-top: 25px;
-}
-
-.famous-rides p {
-  padding-bottom: 20px;
-}
-
-/* information page styling */
-
-.infopage .row {
-  margin-top: 20px;
-}
-
-.op-hr .row {
-  margin-bottom: 30px;
-  padding-left: 15px;
-}
-
-.opdata td {
-  padding-right: 50px;
-}
-
-.gettingHere img {
-  margin-bottom: 20px;
-}
-
-.container.facilities {
-  margin-bottom: 30px;
-}
-
-.facilities .col-md {
-  margin-bottom: 30px;
-}
-
-.facilities img {
-  width: 80%;
-}
-
-/* Book now page styling */
-
-/* Cart summary styling */
-
-.card-link {
-  background-color: #F172A1;
-  color: white;
-  padding: 5px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-/* Buy ticket styling */
-
-.tickets .dropbtn {
-  background-color: #F172A1;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-.tickets .dropdown {
-  position: relative;
-  display: inline-block;
-  padding: 0px;
-}
-
-.tickets .dropdown-content {
-  display: none;
-  position: relative;
-  right: 0;
-  background-color: white;
-  min-width: 50px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.tickets .dropdown-content a {
-  color: black;
-  padding: 12px 12px;
-  text-decoration: none;
-  display: block;
-}
-
-.tickets .dropdown-checkout {
-  margin: 30px 0px 0px;
-}
-
-.tickets .dropdown-content a:hover {
-  background-color: #F172A1;
-}
-
-.tickets .dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.tickets .dropdown:hover .dropbtn {
-  background-color: #9F3D91;
-}
-
-/* Card Styling */
-
-.card {
-  margin: 0 auto;
-  float: none;
-  margin-bottom: 10px;
-}
+    padding: 10px 10px;
+    list-style: none;
+    position: relative;
+    background-color: transparent;
+    top: 0;
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+  /* Display list items side by side */
+  
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 14px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  
+  ul.breadcrumb li+li:before {
+    padding: 4px;
+    color: black;
+    content: ">\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  
+  ul.breadcrumb li a {
+    color: #E64398;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
 
 /* scroll to top button */
 
-#myBtn {
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-  border-radius: 50%;
-  padding: 0px;
-}
+    #myBtn {
+        position: fixed;
+        bottom: 5px;
+        right: 30px;
+        z-index: 99;
+        border: none;
+        background-color: #F0EBF4;
+        cursor: pointer;
+        border-radius: 50%;
+        padding: 0%;
+    }
+    
+    #myBtn:hover {
+        background-color: #A1C3D1;
+    }
 
-#myBtn:hover {
-  background-color: #A1C3D1;
-}
+/* footer styling  */
 
-/* more testing */
+    .footer {
+        background: #F172A1;
+        padding: 10px 0px 10px 0px;
+        width: 100%;
+        position: relative;
+        margin-bottom: 0px;
+    }
+    
+    .footer .container {
+        margin-top: 0px;
+        background: #F172A1;
+    }
+    
+    .footer .row {
+        margin-top: 0px;
+        padding: 0px, 0px, 0px, 0px;
+        background: none;
+    }
+    
+    .footer-links {
+        font-size: small;
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    
+    .footer-left {
+        vertical-align: middle;
+    }
 
-.containerpopup {
-  padding-left: 22px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  justify-content: center;
-}
+    .footer a {
+        color: black;
+    }
+    
+    .footer-right {
+        vertical-align: middle;
+    }
+    
+    .socials {
+        float: right;
+        margin-top: 11px;
+    }
+    
+    table.socials {
+        width: 150px;
+        text-align: center;
+    }
+    
+    .privacypolicy {
+        padding: 25px;
+    }
 
-.containerpopup img {
-  justify-content: center;
-  padding-bottom: 15px;
-}
+    .footer img {
+        height: 33px;
+    }
 
-.containerpopup h3 {
-  text-align: center;
-}
+/* Index page styling */
 
-.quantity {
-  margin: 0px;
-  background-color: white;
-}
+    /* carousel styling */
+    .carousel {
+        overflow: hidden;
+    }
 
-.tickets .title {
-  background-color: #B39BC8;
-  text-align: center;
-  color: white;
-}
+    /* quick information styling */
+    .quick-info {
+        text-align: center;
+        margin-bottom: 0px;
+    }
 
-.tickets .price {
-  text-align: center;
-}
+    .quick-info .row {
+        height: 92%;
+    }
 
-.tickets .price p {
-  font-size: 12px;
-  margin: -0.1rem;
-}
+    .quick-info .col-sm {
+        padding: 10px;
+        height: 100%;
+        border-style: dotted;
+        border-width: 1px;
+        border-radius: 5px;
+        border-color: #E64398;
+        margin: 15px;
+    }
 
-.tickets .price p2 {
-  font-size: 20px;
-}
+    .quick-info img {
+        border-radius: 50%; 
+        width: 70%;
+        padding: 10px 0px;
+    }
 
-.tickets .strip {
-  background-color: #F172A1;
-  text-align: center;
-  color: white;
-  height: auto;
-  font-size: 14px;
-  padding: 1px;
-  margin-top: -1rem;
-}
+    .quick-info ul {
+        list-style: none;
+        padding-left: 0px;
+    }
 
-.tickets .content {
-  text-align: center;
-}
+    .quick-info b {
+        font-weight: 600;
+    }
 
-.tickets .content ul {
-  text-align: center;
-}
+    /* snippets styling */
+    .snippet img {
+        width: 100%;
+    }
 
-/* cart summary 2 electric boogaloo */
+    .snippet .row:last-of-type {
+        margin-top: 40px;
+    }
 
-.sticky-container {
-  top: 100px;
-}
+    /* events styling */
+    .events-preview h3 {
+        text-align: center;
+      }
+    
+    .events-preview h4 {
+    padding-top: 10px;
+    }
 
-.cartsum-button {
-  width: auto;
-  float: right;
-}
+    .events-preview img {
+        width: 100%;
+      }
 
-.container.breadcrumb {
-  position: absolute;
-  width: 45%;
-  margin-left: -1rem;
-  margin-top: -1rem;
-  background: rgba(240, 235, 244, 0.1)
-}
+    /* about us styling */
+    .aboutus {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .aboutus img {
+        width: 100%; 
+        border-radius: 25px;
+        margin: 5px 0px 20px 0px;
+    }
+
+/* Attractions page styling */
+
+    .map {
+        margin-top: 0px;
+    }
+
+    .map ul {
+        padding-left: 20px;
+    }
+
+    .map img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .famous-rides {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .famous-rides .row {
+        margin-top: 20px;
+    }
+
+    .famous-rides .col-md {
+        padding: 5px 50px;
+    }
+
+    .famous-rides img {
+        width: 100%; 
+        border-radius: 25px;
+    }
+
+    .famous-rides h4 {
+        margin: 10px 0px;
+    }
+
+    .famous-rides ul {
+        padding-left: 0px; 
+        list-style: none;
+    }
+
+/* Information page styling */
+
+    .directions {
+        margin-top: 0px;
+    }
+
+    .directions img {
+        width: 100%;
+    }
+
+    .directions ul {
+        list-style: none;
+        padding-left: 0px;
+    }
+
+    .facilities .row {
+        margin-top: 20px;
+    }
+
+    .facilities .col-md {
+        margin: 10px 0px;
+    }
+
+    .facilities img {
+        width: 100%; 
+        border-radius: 25px;
+        margin-bottom: 15px;
+    }
+
+    .support {
+        margin-bottom: 60px;
+    }
+
+    .opdata td {
+        padding-right: 30px;
+    }
+
+/* Bookings page styling */
+    
+    .dropdown-cartsummary {
+        position: fixed;
+        top: 100px;
+        right: 0px;
+        z-index: 9999;
+        opacity: 90%;
+    }
+
+    .btn {
+        padding: 10px 100px;
+        border-radius: 0px 0px 0px 10px;
+        border: none;
+        background: #F172A1;
+    }
+
+    /* .btn-secondary.focus, .btn-secondary:focus {
+        color: #fff;
+        background-color: #F172A1;
+        border-color: #F172A1;
+        box-shadow: 0 0 0 .2rem #F172A1;
+    } */
+
+    .dropdown-menu {
+        width: 100%;
+        background: white;
+    }
+
+    .promo-header {
+        margin-top: 10px; 
+        text-align: center;
+    }
+
+    .coupons .col-md {
+        margin: 10px; 
+        border-style: solid; 
+        border-width: 1px;
+    }
+
+    .card {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+    }
+    
+    h5 {
+        padding-top: 10px;
+    }
+
+    .bundles .col-md {
+        margin: 10px; 
+        border-style: solid; 
+        border-width: 1px;
+    }
+
+    /* tickets styling */
+
+    button {
+        margin-bottom: 15px;
+    }
+
+    .tickets .card {
+        margin-bottom: 40px;
+    }
+
+    .tickets .row {
+        margin-bottom: 40px;
+    }
+
+    .tickets .dropbtn {
+        background-color: #F172A1;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+      
+    .tickets .dropdown {
+        position: relative;
+        display: inline-block;
+        padding: 0px;
+    }
+      
+    .tickets .dropdown-content {
+        display: none;
+        position: relative;
+        right: 0;
+        background-color: white;
+        min-width: 50px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+      
+    .tickets .dropdown-content a {
+        color: black;
+        padding: 12px 12px;
+        text-decoration: none;
+        display: block;
+    }
+      
+    .tickets .dropdown-checkout {
+        margin: 30px 0px 0px;
+    }
+      
+    .tickets .dropdown-content a:hover {
+        background-color: #F172A1;
+    }
+      
+    .tickets .dropdown:hover .dropdown-content {
+        display: block;
+    }
+      
+    .tickets .dropdown:hover .dropbtn {
+        background-color: #9F3D91;
+    }
+    
+    .quantity {
+        margin: 0px;
+        background-color: white;
+    }
+      
+    .tickets .title {
+        background-color: #B39BC8;
+        text-align: center;
+        color: white;
+    }
+      
+    .tickets .price {
+        text-align: center;
+    }
+      
+    .tickets .price p {
+        font-size: 12px;
+        margin: -0.1rem;
+    }
+      
+    .tickets .price p2 {
+        font-size: 20px;
+    }
+      
+    .tickets .strip {
+        background-color: #F172A1;
+        text-align: center;
+        color: white;
+        height: auto;
+        font-size: 14px;
+        padding: 1px;
+    }
+      
+    .tickets .content {
+        text-align: center;
+    }
+      
+    .tickets .content ul {
+        text-align: center;
+    } 
+
+    .tickets ul {
+        list-style: none;
+        padding-left: 0px;
+    }
+
+    .tickets .btn {
+        background: #F172A1;
+        border: 0px;
+    }
+      
+    .tickets .btn:hover {
+        background: #9F3D91;
+        border: 0px;
+    } 
+
+    .tickets .dropbtn {
+        margin-top: 0px;
+    }
