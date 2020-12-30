@@ -213,18 +213,17 @@ table.socials {
     margin-bottom: 0px;
 }
 
-.quick-info .row {
+/* .quick-info .row {
     height: 92%;
-}
-
+} */
 
 .quick-info .col-sm {
     padding: 10px;
     height: 100%;
-    border-style: dotted;
+    /* border-style: dotted;
     border-width: 1px;
     border-radius: 5px;
-    border-color: #E64398;
+    border-color: #E64398; */
     margin: 15px;
 }
 
@@ -291,12 +290,12 @@ table.socials {
 
 @keyframes raindrops {
     0% {
-        /* opacity: 0; */
+        opacity: 0;
         transform: translateX(0.5rem);
         transform: translateY(-2rem);
     }
     100% {
-        /* opacity: 100; */
+        opacity: 100;
         transform: translateY(0rem);
     }
 }
@@ -594,11 +593,20 @@ button {
 
 .tickets .price {
     text-align: center;
+    height: 80px;
+}
+
+@media (max-width: 768px) {
+    .tickets .price {
+        margin-bottom: -3rem;
+        text-align: center;
+        height: auto;
+    }
 }
 
 .tickets .price p {
     font-size: 12px;
-    margin: -0.1rem;
+    margin-bottom: -0.1rem;
 }
 
 .tickets .price p2 {
