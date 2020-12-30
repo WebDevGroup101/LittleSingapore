@@ -29,6 +29,7 @@ a {
     color: black;
 }
 
+
 .navbar {
     background: #F172A1;
     padding: 0px;
@@ -216,6 +217,7 @@ table.socials {
     height: 92%;
 }
 
+
 .quick-info .col-sm {
     padding: 10px;
     height: 100%;
@@ -249,21 +251,6 @@ table.socials {
 }
 
 /* SVG Animation */
-
-@keyframes hideshow {
-    0% {
-        opacity: 1;
-    }
-    10% {
-        opacity: 1;
-    }
-    15% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-    }
-}
 
 @keyframes rotate-hour-hand {
     0% {
@@ -304,10 +291,13 @@ table.socials {
 
 @keyframes raindrops {
     0% {
-        opacity: 0;
+        /* opacity: 0; */
+        transform: translateX(0.5rem);
+        transform: translateY(-2rem);
     }
     100% {
-        opacity: 100;
+        /* opacity: 100; */
+        transform: translateY(0rem);
     }
 }
 
@@ -321,28 +311,39 @@ table.socials {
     }
 }
 
-.hour-hand {
-    animation: rotate-hour-hand 10s ease infinite;
+.clock-animate:hover .hour-hand {
+    animation: rotate-hour-hand 10s ease 1;
 }
-.min-hand {
-    animation: rotate-min-hand 10s ease infinite;
+.clock-animate:active .hour-hand {
+    animation-play-state: initial;
 }
-
-.pin-circle {
-    animation: pin-drop 3s ease infinite;
+.clock-animate:hover .min-hand {
+    animation: rotate-min-hand 10s ease 1;
 }
-
-.pin-body {
-    animation: pin-drop 3s ease infinite;
+.clock-animate:active .min-hand {
+    animation-play-state: initial;
 }
 
-.raindroplets {
-    animation: raindrops 10s ease infinite;
+.map-animate:hover .pin-body {
+    animation: pin-drop 3s ease 1;
+}
+.map-animate:active .pin-body {
+    animation-play-state: initial;
 }
 
-.star-body {
+.rain-animate:hover .raindroplets {
+    animation: raindrops 3s ease 1;
+}
+.rain-animate:hover .raindroplets {
+    animation-play-state: initial;
+}
+
+.star-animate:hover .star-body {
     transform-origin: center center;
-    animation: scale-up 3s ease infinite;
+    animation: scale-up 3s ease 1;
+}
+.star-animte:active .star-body {
+    animation-play-state: initial;
 }
 
 /* snippets styling */
