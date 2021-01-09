@@ -134,14 +134,14 @@
                 <p>2x Adult and 3x Children Express Pass</p>
                 <p>Priced at $220 SGD</p>
                 <p>Enjoy a care-free day at Little Singapore and need not worry about long queues and impatient children!</p>
-                <button>Add to cart</button>
+                <button class="bundle-btn">Add to cart</button>
             </div>
             <div class="col-md">
                 <h5>Overnight Hotel Bundle</h5>
-                <p>2x Adult Express Pass and Deluxe Room at our Partner Hotel</p>
+                <p>2x Adult Express Pass and Room at our Partner Hotel</p>
                 <p>Priced at $400 SGD</p>
-                <p>Don't worry about beating the traffic! Enjoy your fun all day long and relax at the end of it with our Partner Hotel!</p>
-                <button>Add to cart</button>
+                <p>Enjoy your fun all day long and relax at the end of it with our Partner Hotel!</p>
+                <button class="bundle-btn">Add to cart</button>
             </div>
         </div>
     </div>
@@ -422,7 +422,7 @@
     </div>
 
     <!-- scroll to top button -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <button onclick="topFunction()" id="scrollBtn" title="Go to top">
         <img src="img/scroll.webp" alt="Scroll to top icon" style="width: 50px; padding: 0px;">
     </button>
 
@@ -438,7 +438,7 @@
                             aria-hidden="true" id="modalforlegal">
                             <div class="modal-dialog modal-lg">
                                 <div class="modal-content">
-                                    <p>Insert legal policy when necessary. As of now, Little Singapore is completely
+                                    <p>As of now, Little Singapore is completely
                                         fictional, fabricated for a school assignment.</p>
                                 </div>
                             </div>
@@ -860,16 +860,16 @@
     <script>$('#carouselExampleCaptions').carousel({ interval: 2000 })</script>
     <script>
         //Get the button:
-        mybutton = document.getElementById("myBtn");
+        scrollbutton = document.getElementById("scrollBtn");
 
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function () { scrollFunction() };
 
         function scrollFunction() {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
+                scrollbutton.style.display = "block";
             } else {
-                mybutton.style.display = "none";
+                scrollbutton.style.display = "none";
             }
         }
 

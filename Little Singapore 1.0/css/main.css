@@ -33,6 +33,7 @@ a {
 .navbar {
     background: #F172A1;
     padding: 0px;
+    border-bottom: 5px inset #B39BC8;
 }
 
 @media (max-width: 991px) {
@@ -124,7 +125,7 @@ ul.breadcrumb li a:hover {
 
 /* scroll to top button */
 
-#myBtn {
+#scrollBtn {
     position: fixed;
     bottom: 5px;
     right: 30px;
@@ -136,7 +137,7 @@ ul.breadcrumb li a:hover {
     padding: 0%;
 }
 
-#myBtn:hover {
+#scrollBtn:hover {
     background-color: #A1C3D1;
 }
 
@@ -148,6 +149,7 @@ ul.breadcrumb li a:hover {
     width: 100%;
     position: relative;
     margin-bottom: 0px;
+    border-top: 5px outset #B39BC8;
 }
 
 .footer .container {
@@ -213,17 +215,9 @@ table.socials {
     margin-bottom: 0px;
 }
 
-/* .quick-info .row {
-    height: 92%;
-} */
-
 .quick-info .col-sm {
     padding: 10px;
     height: 100%;
-    /* border-style: dotted;
-    border-width: 1px;
-    border-radius: 5px;
-    border-color: #E64398; */
     margin: 15px;
 }
 
@@ -478,13 +472,6 @@ table.socials {
     background: #F172A1;
 }
 
-/* .btn-secondary.focus, .btn-secondary:focus {
-        color: #fff;
-        background-color: #F172A1;
-        border-color: #F172A1;
-        box-shadow: 0 0 0 .2rem #F172A1;
-    } */
-
 .dropdown-menu {
     width: 100%;
     background: white;
@@ -513,8 +500,20 @@ h5 {
 
 .bundles .col-md {
     margin: 10px;
-    border-style: solid;
     border-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+}
+.bundles h5 {
+    padding-bottom: 1%;
+    border-bottom: 4px inset #eeeeee;
+}
+.bundle-btn {
+    background: #F172A1;
+    border: 0px;
+    color: white;
+    width: 150px;
+    border-radius: 15px;
 }
 
 /* tickets styling */

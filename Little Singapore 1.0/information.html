@@ -70,7 +70,7 @@
         <h3>Getting Here</h3>
         <div class="row">
             <div class="col-lg-8">
-                <img src="img/parkmap.jpg" alt="Directions">
+                <img src="img/parkmap.jpg" alt="Directions image depicting location of park with public transport access and carparks.">
             </div>
             <div class="col-md">
                 <div>
@@ -117,12 +117,12 @@
             </div>
             <div class="col-md">
                 <h4>Atas Bagus</h4>
-                <img src="img/facilities/restaurant.jpeg" alt="Atas Bagus">
+                <img src="img/facilities/restaurant.jpeg" alt="Atas Bagus image ">
                 <p>Satisfy your cravings for some good old Malay and Peranakan cuisine here. It will definitely remind you of the good old kampung days being rich and bold in flavour.</p>
             </div>
             <div class="col-md">
                 <h4>Ninja Van</h4>
-                <img src="img/facilities/ninjavan.jpeg" alt="Ninja Van">
+                <img src="img/facilities/ninjavan.jpeg" alt="Ninja Van image">
                 <p>If you have ever been to field training, you will know of this legendary vendor that is capable of appearing in the thick of the jungle. Just like the real thing, you can find all the snacks and beverages you'll need around the park.</p>
             </div>
         </div>
@@ -183,7 +183,7 @@
     </div>
 
     <!-- scroll to top button -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <button onclick="topFunction()" id="scrollBtn" title="Go to top">
         <img src="img/scroll.webp" alt="Scroll to top icon" style="width: 50px; padding: 0px;">
     </button>
 
@@ -199,7 +199,7 @@
                             aria-hidden="true" id="modalforlegal">
                             <div class="modal-dialog modal-lg">
                                 <div class="modal-content">
-                                    <p>Insert legal policy when necessary. As of now, Little Singapore is completely
+                                    <p>As of now, Little Singapore is completely
                                         fictional, fabricated for a school assignment.</p>
                                 </div>
                             </div>
@@ -621,16 +621,16 @@
     <script>$('#carouselExampleCaptions').carousel({ interval: 2000 })</script>
     <script>
         //Get the button:
-        mybutton = document.getElementById("myBtn");
+        scrollbutton = document.getElementById("scrollBtn");
 
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function () { scrollFunction() };
 
         function scrollFunction() {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
+                scrollbutton.style.display = "block";
             } else {
-                mybutton.style.display = "none";
+                scrollbutton.style.display = "none";
             }
         }
 
